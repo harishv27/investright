@@ -15,9 +15,16 @@ app = FastAPI(
     version="1.0.0",
 )
 
+cors_origins = list(set(settings.cors_origin_list + [
+    "https://investright-tawny.vercel.app",
+    "http://localhost:5173",
+    "http://localhost:3000",
+]))
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=settings.cors_origin_list,
+    allow_origins=cors_origins,
+    allow_origin_regex=r"https://.*\.vercel\.app|http://localhost:\d+",
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
