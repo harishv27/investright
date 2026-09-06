@@ -76,6 +76,15 @@ class ProfileRequest(BaseModel):
     horizon_years: int = Field(ge=0, le=60)
 
 
+class ProfileUpdateRequest(BaseModel):
+    income: Optional[float] = None
+    expenses: Optional[float] = None
+    savings: Optional[float] = None
+    planned_investment: Optional[float] = None
+    goal: Optional[str] = None
+    horizon_years: Optional[int] = None
+
+
 class ProfileResponse(ProfileRequest):
     id: int
 

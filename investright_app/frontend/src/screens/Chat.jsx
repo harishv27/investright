@@ -432,6 +432,7 @@ export default function Chat({ mood, onProfileComplete, onViewDashboard, onAuthE
   const [lastSources, setLastSources] = useState([]);
   const [extracting, setExtracting] = useState(false);
   const [extraction, setExtraction] = useState(null);
+  const [extractedEdits, setExtractedEdits] = useState({});
   const [listening, setListening] = useState(false);
   const [result, setResult] = useState(null);
   const scrollRef = useRef(null);
@@ -670,13 +671,14 @@ export default function Chat({ mood, onProfileComplete, onViewDashboard, onAuthE
     try {
       const data = await api.extractProfileMedia(file);
       setExtraction(data);
+      setExtractedEdits(data.candidates || {});
       const foundItems = Object.entries(data.candidates || {})
         .filter(([_, v]) => v !== null && v !== undefined && v > 0)
         .map(([k, v]) => `• ${k.replace(/_/g, " ")}: ₹${Number(v).toLocaleString("en-IN")}`);
 
       let botMsg = `📄 I've analyzed your document (**${file.name}**)!`;
       if (foundItems.length > 0) {
-        botMsg += `\n\nI detected these figures:\n${foundItems.join("\n")}\n\nYou can click **Confirm** on any value to apply it to your profile, or enter your own numbers below if you want to modify your details.`;
+        botMsg += `\n\nI detected these figures:\n${foundItems.join("\n")}\n\nYou can click **Confirm** on any value to apply it to your profile, or modify the numbers directly in the card below.`;
       } else {
         botMsg += `\n\nI couldn't identify specific income or expense values automatically. You can enter or modify your details in the form below.`;
       }
@@ -688,16 +690,38 @@ export default function Chat({ mood, onProfileComplete, onViewDashboard, onAuthE
     }
   };
 
-  const applyExtractedValue = (field, value) => {
-    if (value === null || value === undefined) return;
-    const fieldMap = { net_pay: "income", gross_earnings: "income" };
+  const applyExtractedValue = async (field, value) => {
+    const finalVal = extractedEdits[field] !== undefined && extractedEdits[field] !== "" ? extractedEdits[field] : value;
+    if (finalVal === null || finalVal === undefined || isNaN(Number(finalVal))) return;
+
+    const numVal = Number(finalVal);
+    const fieldMap = {
+      net_pay: "income",
+      gross_earnings: "income",
+      income: "income",
+      deductions: "expenses",
+      expenses: "expenses",
+      savings: "savings",
+    };
     const targetField = fieldMap[field] || field;
     const evidenceId = extraction?.evidence_ids?.[field];
-    if (evidenceId) api.confirmEvidence(evidenceId, value).catch(() => {});
+
+    if (evidenceId) {
+      await api.confirmEvidence(evidenceId, numVal).catch(() => {});
+    }
+
     if (["income", "expenses", "savings"].includes(targetField)) {
-      setProfile((p) => ({ ...p, [targetField]: value }));
-      if (current?.field === targetField) setTextValue(String(value));
-      appendBot(`✅ Confirmed **${targetField}** of **₹${Number(value).toLocaleString("en-IN")}** into your profile.`);
+      setProfile((p) => ({ ...p, [targetField]: numVal }));
+      if (current?.field === targetField) setTextValue(String(numVal));
+
+      try {
+        await api.updateProfile({ [targetField]: numVal });
+        if (onProfileComplete) onProfileComplete();
+      } catch (err) {
+        console.warn("Could not patch profile immediately:", err);
+      }
+
+      appendBot(`✅ Confirmed & updated **${targetField}** to **₹${numVal.toLocaleString("en-IN")}** into your profile.`);
     }
   };
 
@@ -772,22 +796,50 @@ export default function Chat({ mood, onProfileComplete, onViewDashboard, onAuthE
       {extraction && (
         <div className="chat-input-area">
           <div className="extraction-panel">
-            <div className="extraction-title">Review document evidence</div>
+            <div className="extraction-title">Review & Modify Document Evidence</div>
             <div className="extraction-file">{extraction.filename}</div>
-            {Object.entries(extraction.candidates).map(([field, value]) => (
-              <div className="extraction-row" key={field}>
-                <span>{field.replace("_", " ")}</span>
-                <strong>{value === null ? "Not found" : `₹${Number(value).toLocaleString("en-IN")}`}</strong>
-                {value !== null &&
-                  ["income", "expenses", "savings", "net_pay", "gross_earnings"].includes(field) && (
-                    <button className="mini-btn" onClick={() => applyExtractedValue(field, value)}>
-                      Confirm
-                    </button>
+            {Object.entries(extraction.candidates).map(([field, value]) => {
+              const currentVal = extractedEdits[field] !== undefined ? extractedEdits[field] : value;
+              const isSupported = ["income", "expenses", "savings", "net_pay", "gross_earnings", "deductions"].includes(field);
+              return (
+                <div className="extraction-row" key={field} style={{ display: "flex", justifyContent: "space-between", alignItems: "center", gap: "8px", padding: "8px 0" }}>
+                  <span style={{ textTransform: "capitalize", minWidth: 100, fontSize: "12.5px" }}>{field.replace("_", " ")}</span>
+                  {value === null ? (
+                    <span style={{ color: "var(--muted)", fontSize: "12px" }}>Not found</span>
+                  ) : (
+                    <div style={{ display: "flex", alignItems: "center", gap: "6px", flex: 1, justifyContent: "flex-end" }}>
+                      <span style={{ fontSize: "12px", color: "var(--muted)" }}>₹</span>
+                      <input
+                        type="number"
+                        value={currentVal ?? ""}
+                        onChange={(e) => setExtractedEdits((prev) => ({ ...prev, [field]: e.target.value }))}
+                        style={{
+                          width: "95px",
+                          padding: "4px 6px",
+                          fontSize: "12.5px",
+                          border: "1px solid var(--line)",
+                          borderRadius: "6px",
+                          fontFamily: "'IBM Plex Mono', monospace",
+                          background: "var(--paper)",
+                        }}
+                        title="You can modify this figure if needed"
+                      />
+                      {isSupported && (
+                        <button
+                          className="mini-btn"
+                          onClick={() => applyExtractedValue(field, currentVal)}
+                          style={{ fontWeight: 600, background: "var(--teal)", color: "#fff", borderColor: "var(--teal)" }}
+                        >
+                          Confirm
+                        </button>
+                      )}
+                    </div>
                   )}
-              </div>
-            ))}
+                </div>
+              );
+            })}
             <div className="upload-hint" style={{ marginBottom: "8px" }}>
-              {extraction.confidence_note} Confirmed values are applied to your profile.
+              Modify numbers above if needed. Confirmed values automatically update your profile.
             </div>
             <button className="mini-btn ghost" style={{ width: "100%", padding: "8px" }} onClick={() => setExtraction(null)}>
               Done reviewing document ✓

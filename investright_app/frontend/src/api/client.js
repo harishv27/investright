@@ -46,6 +46,7 @@ export const api = {
   updateUser: (fullName) => request("/api/auth/me", { method: "PATCH", body: { full_name: fullName } }),
 
   saveProfile: (profile) => request("/api/profile", { method: "POST", body: profile }),
+  updateProfile: (partial) => request("/api/profile", { method: "PATCH", body: partial }),
   getProfile: () => request("/api/profile"),
   extractProfileMedia: (file) => {
     const body = new FormData();

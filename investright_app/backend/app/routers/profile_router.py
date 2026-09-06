@@ -85,9 +85,68 @@ def confirm_evidence(
     evidence.confirmed_value = payload.value
     evidence.confirmed = 1
     evidence.confirmed_at = datetime.utcnow()
+    
+    # Automatically synchronize confirmed figures into user's Financial Profile
+    profile = db.query(models.FinancialProfile).filter(
+        models.FinancialProfile.user_id == current_user.id
+    ).first()
+    
+    val = float(payload.value)
+    field = evidence.field_name
+    
+    if not profile:
+        profile = models.FinancialProfile(
+            user_id=current_user.id,
+            income=val if field in ("income", "net_pay", "gross_earnings") else 50000.0,
+            expenses=val if field in ("expenses", "deductions") else 25000.0,
+            savings=val if field == "savings" else 50000.0,
+            planned_investment=10000.0,
+            goal="Long-term wealth creation",
+            horizon_years=10,
+        )
+        db.add(profile)
+    else:
+        if field in ("income", "net_pay", "gross_earnings"):
+            profile.income = val
+        elif field in ("expenses", "deductions"):
+            profile.expenses = val
+        elif field == "savings":
+            profile.savings = val
+
     db.commit()
     db.refresh(evidence)
     return evidence
+
+
+@router.patch("", response_model=schemas.ProfileResponse)
+def patch_profile(
+    payload: schemas.ProfileUpdateRequest,
+    db: Session = Depends(get_db),
+    current_user: models.User = Depends(auth.get_current_user),
+):
+    profile = db.query(models.FinancialProfile).filter(
+        models.FinancialProfile.user_id == current_user.id
+    ).first()
+    
+    data = payload.model_dump(exclude_unset=True, exclude_none=True)
+    if not profile:
+        profile = models.FinancialProfile(
+            user_id=current_user.id,
+            income=float(data.get("income", 50000.0)),
+            expenses=float(data.get("expenses", 25000.0)),
+            savings=float(data.get("savings", 50000.0)),
+            planned_investment=float(data.get("planned_investment", 10000.0)),
+            goal=str(data.get("goal", "Long-term wealth creation")),
+            horizon_years=int(data.get("horizon_years", 10)),
+        )
+        db.add(profile)
+    else:
+        for k, v in data.items():
+            setattr(profile, k, v)
+    
+    db.commit()
+    db.refresh(profile)
+    return profile
 
 
 @router.post("", response_model=schemas.ProfileResponse)
