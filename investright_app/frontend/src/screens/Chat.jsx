@@ -146,7 +146,7 @@ function fmt(n) {
 }
 
 // ─── IncomeBreakdown component ─────────────────────────────────────────────────
-function IncomeBreakdown({ onDone }) {
+function IncomeBreakdown({ onDone, language }) {
   const [cats, setCats] = useState(() =>
     Object.fromEntries(INCOME_CATEGORIES.map((c) => [c.key, ""]))
   );

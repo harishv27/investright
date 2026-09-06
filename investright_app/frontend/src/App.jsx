@@ -10,9 +10,20 @@ import Evaluation from "./screens/Evaluation";
 
 export default function App() {
   const [isAuthenticated, setIsAuthenticated] = useState(!!localStorage.getItem("token"));
+  const [currentUser, setCurrentUser] = useState(null);
   const [screen, setScreen] = useState("dashboard");
   const [mood, setMood] = useState("straight");
   const [dashboardData, setDashboardData] = useState(null);
+
+  async function loadUser() {
+    if (!isAuthenticated) return;
+    try {
+      const user = await api.getUser();
+      setCurrentUser(user);
+    } catch {
+      // ignore
+    }
+  }
 
   async function refreshDashboard() {
     if (!isAuthenticated) return;
@@ -24,7 +35,16 @@ export default function App() {
     }
   }
 
-  useEffect(() => { refreshDashboard(); }, [isAuthenticated]);
+  useEffect(() => {
+    refreshDashboard();
+    loadUser();
+  }, [isAuthenticated]);
+
+  const isAdmin = Boolean(
+    currentUser?.is_admin ||
+    currentUser?.email?.toLowerCase() === "admin" ||
+    currentUser?.email?.toLowerCase() === "admin@investright.com"
+  );
 
   const mainTabs = ["chat", "dashboard", "profile", "evaluation"];
   const showTabBar = mainTabs.includes(screen);
@@ -37,6 +57,7 @@ export default function App() {
     localStorage.removeItem("fin_chat_profile");
     localStorage.removeItem("fin_chat_risk");
     setDashboardData(null);
+    setCurrentUser(null);
     setIsAuthenticated(false);
   };
 
@@ -47,6 +68,7 @@ export default function App() {
   const handleAuthenticated = async () => {
     setIsAuthenticated(true);
     setScreen("dashboard");
+    loadUser();
   };
 
   if (!isAuthenticated) {
@@ -80,9 +102,11 @@ export default function App() {
             <button className={screen === "profile" ? "active" : ""} onClick={() => setScreen("profile")}>
               <span>◎</span> Profile & settings
             </button>
-            <button className={screen === "evaluation" ? "active" : ""} onClick={() => setScreen("evaluation")}>
-              <span>◇</span> Evaluation
-            </button>
+            {isAdmin && (
+              <button className={screen === "evaluation" ? "active" : ""} onClick={() => setScreen("evaluation")}>
+                <span>◇</span> Evaluation
+              </button>
+            )}
           </nav>
           <div className="sidebar-footer">
             <div className="advisor-status"><span /> Fin is online</div>
@@ -120,7 +144,7 @@ export default function App() {
               onRestart={() => setScreen("chat")}
             />
           )}
-          {screen === "evaluation" && <Evaluation />}
+          {screen === "evaluation" && (isAdmin ? <Evaluation /> : <Dashboard data={dashboardData} onRefresh={refreshDashboard} />)}
           </div>
 
         {showTabBar && (

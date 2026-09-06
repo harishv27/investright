@@ -13,7 +13,7 @@ class SignupRequest(BaseModel):
 
 
 class LoginRequest(BaseModel):
-    email: EmailStr
+    email: str
     password: str
 
 
@@ -28,8 +28,9 @@ class TokenResponse(BaseModel):
 
 class UserResponse(BaseModel):
     full_name: Optional[str] = None
-    email: EmailStr
+    email: str
     age: Optional[int] = None
+    is_admin: bool = False
     created_at: datetime
 
     class Config:

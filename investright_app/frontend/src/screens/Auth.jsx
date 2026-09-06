@@ -119,13 +119,13 @@ export default function Auth({ onAuthenticated }) {
       )}
 
       <div className="auth-field">
-        <label>Email</label>
+        <label>{mode === "login" ? "Email or Username" : "Email"}</label>
         <input
-          type="email"
-          placeholder="you@example.com"
+          type={mode === "login" ? "text" : "email"}
+          placeholder={mode === "login" ? "you@example.com or admin" : "you@example.com"}
           value={email}
           onChange={(e) => setEmail(e.target.value)}
-          autoComplete="email"
+          autoComplete={mode === "login" ? "username" : "email"}
         />
       </div>
 

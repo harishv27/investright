@@ -17,6 +17,27 @@ def ensure_schema():
         with engine.begin() as connection:
             connection.execute(text("ALTER TABLE users ADD COLUMN full_name VARCHAR"))
 
+    # Seed admin user if not present or ensure password is admin@1234
+    try:
+        from app import auth
+        from app.models import User
+        with SessionLocal() as session:
+            for admin_ident in ("admin", "admin@investright.com"):
+                admin_user = session.query(User).filter(User.email == admin_ident).first()
+                if not admin_user:
+                    admin_user = User(
+                        email=admin_ident,
+                        full_name="Administrator",
+                        hashed_password=auth.hash_password("admin@1234"),
+                        age=30,
+                    )
+                    session.add(admin_user)
+                else:
+                    admin_user.hashed_password = auth.hash_password("admin@1234")
+            session.commit()
+    except Exception as e:
+        print(f"Admin seeding notice: {e}")
+
 
 def get_db():
     db = SessionLocal()

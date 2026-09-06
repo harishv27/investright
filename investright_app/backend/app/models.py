@@ -22,6 +22,10 @@ class User(Base):
     portfolio_holdings = relationship("PortfolioHolding", back_populates="user")
     conversations = relationship("Conversation", back_populates="user")
 
+    @property
+    def is_admin(self) -> bool:
+        return (self.email or "").lower() in ("admin", "admin@investright.com", "admin@gmail.com")
+
 
 class FinancialProfile(Base):
     __tablename__ = "financial_profiles"
