@@ -67,6 +67,10 @@ export const api = {
   askAgent: (message) => request("/api/agent/query", { method: "POST", body: { message } }),
   getConversations: () => request("/api/agent/conversations"),
 
+  submitFeedback: (payload) => request("/api/feedback", { method: "POST", body: payload }),
+  getFeedbackSummary: () => request("/api/feedback/summary"),
+  getUserBenchmark: () => request("/api/evaluation/benchmark-5-users"),
+
   setToken: (token) => localStorage.setItem("token", token),
   clearToken: () => localStorage.removeItem("token"),
   hasToken: () => !!getToken(),

@@ -119,3 +119,32 @@ class FinancialEvidence(Base):
     confirmed_at = Column(DateTime, nullable=True)
 
     user = relationship("User")
+
+
+class UserFeedback(Base):
+    __tablename__ = "user_feedbacks"
+
+    id = Column(Integer, primary_key=True, index=True)
+    user_id = Column(Integer, ForeignKey("users.id"), nullable=True)
+    user_email = Column(String, nullable=True)
+    user_name = Column(String, nullable=True)
+
+    # Core rating questions (1-5 scale)
+    overall_rating = Column(Integer, nullable=False, default=5)
+    voice_feature_rating = Column(Integer, nullable=False, default=5)
+    text_chat_rating = Column(Integer, nullable=False, default=5)
+    ai_advisor_rating = Column(Integer, nullable=False, default=5)
+    user_friendly_rating = Column(Integer, nullable=False, default=5)
+    document_extraction_rating = Column(Integer, nullable=False, default=5)
+    multilingual_rating = Column(Integer, nullable=False, default=5)
+
+    # NPS score (1-10)
+    nps_score = Column(Integer, nullable=False, default=10)
+
+    # Qualitative feedback
+    most_valuable_feature = Column(String, nullable=True)
+    suggestions = Column(Text, nullable=True)
+
+    created_at = Column(DateTime, default=datetime.utcnow)
+
+    user = relationship("User")

@@ -175,3 +175,51 @@ class ConversationResponse(BaseModel):
 
     class Config:
         from_attributes = True
+
+
+# ---------- Feedback ----------
+
+class FeedbackCreateRequest(BaseModel):
+    overall_rating: int = Field(default=5, ge=1, le=5)
+    voice_feature_rating: int = Field(default=5, ge=1, le=5)
+    text_chat_rating: int = Field(default=5, ge=1, le=5)
+    ai_advisor_rating: int = Field(default=5, ge=1, le=5)
+    user_friendly_rating: int = Field(default=5, ge=1, le=5)
+    document_extraction_rating: int = Field(default=5, ge=1, le=5)
+    multilingual_rating: int = Field(default=5, ge=1, le=5)
+    nps_score: int = Field(default=10, ge=1, le=10)
+    most_valuable_feature: Optional[str] = None
+    suggestions: Optional[str] = None
+
+
+class FeedbackResponse(BaseModel):
+    id: int
+    user_email: Optional[str] = None
+    user_name: Optional[str] = None
+    overall_rating: int
+    voice_feature_rating: int
+    text_chat_rating: int
+    ai_advisor_rating: int
+    user_friendly_rating: int
+    document_extraction_rating: int
+    multilingual_rating: int
+    nps_score: int
+    most_valuable_feature: Optional[str] = None
+    suggestions: Optional[str] = None
+    created_at: datetime
+
+    class Config:
+        from_attributes = True
+
+
+class FeedbackSummaryResponse(BaseModel):
+    total_feedbacks: int
+    average_overall: float
+    average_voice: float
+    average_chat: float
+    average_ai_advisor: float
+    average_user_friendly: float
+    average_doc_extraction: float
+    average_multilingual: float
+    average_nps: float
+    recent_feedbacks: list[FeedbackResponse]

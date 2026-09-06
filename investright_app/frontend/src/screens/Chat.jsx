@@ -658,7 +658,19 @@ export default function Chat({ mood, onProfileComplete, onViewDashboard, onAuthE
     ]);
     setExtracting(true);
     try {
-      setExtraction(await api.extractProfileMedia(file));
+      const data = await api.extractProfileMedia(file);
+      setExtraction(data);
+      const foundItems = Object.entries(data.candidates || {})
+        .filter(([_, v]) => v !== null && v !== undefined && v > 0)
+        .map(([k, v]) => `• ${k.replace(/_/g, " ")}: ₹${Number(v).toLocaleString("en-IN")}`);
+
+      let botMsg = `📄 I've analyzed your document (**${file.name}**)!`;
+      if (foundItems.length > 0) {
+        botMsg += `\n\nI detected these figures:\n${foundItems.join("\n")}\n\nYou can click **Confirm** on any value to apply it to your profile, or enter your own numbers below if you want to modify your details.`;
+      } else {
+        botMsg += `\n\nI couldn't identify specific income or expense values automatically. You can enter or modify your details in the form below.`;
+      }
+      appendBot(botMsg);
     } catch (error) {
       appendBot(`I couldn't read that file: ${error.message}`);
     } finally {
@@ -675,6 +687,7 @@ export default function Chat({ mood, onProfileComplete, onViewDashboard, onAuthE
     if (["income", "expenses", "savings"].includes(targetField)) {
       setProfile((p) => ({ ...p, [targetField]: value }));
       if (current?.field === targetField) setTextValue(String(value));
+      appendBot(`✅ Confirmed **${targetField}** of **₹${Number(value).toLocaleString("en-IN")}** into your profile.`);
     }
   };
 
@@ -763,9 +776,12 @@ export default function Chat({ mood, onProfileComplete, onViewDashboard, onAuthE
                   )}
               </div>
             ))}
-            <div className="upload-hint">
+            <div className="upload-hint" style={{ marginBottom: "8px" }}>
               {extraction.confidence_note} Confirmed values are applied to your profile.
             </div>
+            <button className="mini-btn ghost" style={{ width: "100%", padding: "8px" }} onClick={() => setExtraction(null)}>
+              Done reviewing document ✓
+            </button>
           </div>
         </div>
       )}

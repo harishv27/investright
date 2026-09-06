@@ -3,7 +3,7 @@ from fastapi.middleware.cors import CORSMiddleware
 
 from app.database import ensure_schema
 from app.config import settings
-from app.routers import auth_router, profile_router, risk_router, dashboard_router, agent_router, portfolio_router
+from app.routers import auth_router, profile_router, risk_router, dashboard_router, agent_router, portfolio_router, feedback_router, evaluation_router
 
 # Creates tables on startup if they don't exist yet.
 # For production, switch to Alembic migrations instead.
@@ -36,6 +36,8 @@ app.include_router(risk_router.router)
 app.include_router(dashboard_router.router)
 app.include_router(agent_router.router)
 app.include_router(portfolio_router.router)
+app.include_router(feedback_router.router)
+app.include_router(evaluation_router.router)
 
 
 @app.get("/api/health")

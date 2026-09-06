@@ -7,6 +7,7 @@ import Chat from "./screens/Chat";
 import Dashboard from "./screens/Dashboard";
 import Profile from "./screens/Profile";
 import Evaluation from "./screens/Evaluation";
+import Feedback from "./screens/Feedback";
 
 export default function App() {
   const [isAuthenticated, setIsAuthenticated] = useState(!!localStorage.getItem("token"));
@@ -46,7 +47,7 @@ export default function App() {
     currentUser?.email?.toLowerCase() === "admin@investright.com"
   );
 
-  const mainTabs = ["chat", "dashboard", "profile", "evaluation"];
+  const mainTabs = ["chat", "dashboard", "profile", "feedback", "evaluation"];
   const showTabBar = mainTabs.includes(screen);
 
   const handleLogout = () => {
@@ -102,6 +103,9 @@ export default function App() {
             <button className={screen === "profile" ? "active" : ""} onClick={() => setScreen("profile")}>
               <span>◎</span> Profile & settings
             </button>
+            <button className={screen === "feedback" ? "active" : ""} onClick={() => setScreen("feedback")}>
+              <span>★</span> Experience & feedback
+            </button>
             {isAdmin && (
               <button className={screen === "evaluation" ? "active" : ""} onClick={() => setScreen("evaluation")}>
                 <span>◇</span> Evaluation
@@ -120,7 +124,7 @@ export default function App() {
               <div className="avatar">F</div>
               <div><h1>Fin</h1><div className="status on">your investment advisor</div></div>
             </div>
-            <div className="header-context"><span className="header-kicker">INVESTRIGHT WORKSPACE</span><strong>{screen === "chat" ? "Your advisor" : screen === "profile" ? "Your account" : screen === "evaluation" ? "Research evaluation" : "Your financial snapshot"}</strong></div>
+            <div className="header-context"><span className="header-kicker">INVESTRIGHT WORKSPACE</span><strong>{screen === "chat" ? "Your advisor" : screen === "profile" ? "Your account" : screen === "feedback" ? "User experience survey" : screen === "evaluation" ? "Research evaluation" : "Your financial snapshot"}</strong></div>
             <button className="header-help" onClick={() => setScreen("chat")}>Ask Fin <span>↗</span></button>
           </header>
 
@@ -144,6 +148,7 @@ export default function App() {
               onRestart={() => setScreen("chat")}
             />
           )}
+          {screen === "feedback" && <Feedback onDone={() => setScreen("dashboard")} />}
           {screen === "evaluation" && (isAdmin ? <Evaluation /> : <Dashboard data={dashboardData} onRefresh={refreshDashboard} />)}
           </div>
 
@@ -169,6 +174,12 @@ export default function App() {
               onClick={() => setScreen("profile")}
             >
               <span className="tab-icon">👤</span>Profile<span className="dot" />
+            </button>
+            <button
+              className={`tab ${screen === "feedback" ? "active" : ""}`}
+              onClick={() => setScreen("feedback")}
+            >
+              <span className="tab-icon">★</span>Review<span className="dot" />
             </button>
           </div>
         )}
