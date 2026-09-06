@@ -1,0 +1,62 @@
+{
+  "label": "calibrated_bands",
+  "bands": {
+    "lower_pct": 0.575,
+    "upper_pct": 0.625
+  },
+  "n_profiles": 240,
+  "n_questions": 8,
+  "seed": 7,
+  "table_iv_functional_validation": {
+    "profiles_evaluated": 240,
+    "independent_recompute_mismatches": "0 / 240",
+    "profiles_with_negative_savings": "0 / 240",
+    "mean_savings_rate_pct": 38.0
+  },
+  "fig2_risk_category_distribution": {
+    "Conservative": {
+      "count": 128,
+      "pct": 53.3
+    },
+    "Moderate": {
+      "count": 30,
+      "pct": 12.5
+    },
+    "Aggressive": {
+      "count": 82,
+      "pct": 34.2
+    }
+  },
+  "table_v_recommended_category_distribution": [
+    {
+      "category": "Conservative Hybrid / Debt Funds",
+      "count": 102,
+      "pct": 42.5
+    },
+    {
+      "category": "Multi-Cap & Growth Equity Funds",
+      "count": 62,
+      "pct": 25.8
+    },
+    {
+      "category": "Liquid Funds & Fixed Deposits",
+      "count": 26,
+      "pct": 10.8
+    },
+    {
+      "category": "Balanced Advantage / Index Funds",
+      "count": 22,
+      "pct": 9.2
+    },
+    {
+      "category": "Large-Cap Equity Funds",
+      "count": 20,
+      "pct": 8.3
+    },
+    {
+      "category": "Balanced Hybrid Funds",
+      "count": 8,
+      "pct": 3.3
+    }
+  ]
+}

@@ -1,0 +1,4562 @@
+[
+  {
+    "id": 1,
+    "age": 42,
+    "income": 171658.46,
+    "expenses": 97356.6,
+    "planned_investment": 9941.63,
+    "horizon_years": 18,
+    "goal": "retirement",
+    "risk_responses": [
+      3,
+      5,
+      1,
+      5,
+      2,
+      1,
+      1,
+      4
+    ]
+  },
+  {
+    "id": 2,
+    "age": 48,
+    "income": 31176.87,
+    "expenses": 12467.38,
+    "planned_investment": 7430.72,
+    "horizon_years": 19,
+    "goal": "retirement",
+    "risk_responses": [
+      2,
+      5,
+      1,
+      5,
+      5,
+      4,
+      1,
+      2
+    ]
+  },
+  {
+    "id": 3,
+    "age": 24,
+    "income": 109066.38,
+    "expenses": 46161.93,
+    "planned_investment": 24746.45,
+    "horizon_years": 18,
+    "goal": "retirement",
+    "risk_responses": [
+      5,
+      3,
+      5,
+      2,
+      1,
+      5,
+      5,
+      2
+    ]
+  },
+  {
+    "id": 4,
+    "age": 45,
+    "income": 35588.89,
+    "expenses": 26394.89,
+    "planned_investment": 4551.56,
+    "horizon_years": 20,
+    "goal": "wealth_growth",
+    "risk_responses": [
+      4,
+      5,
+      4,
+      3,
+      4,
+      5,
+      4,
+      3
+    ]
+  },
+  {
+    "id": 5,
+    "age": 41,
+    "income": 59748.25,
+    "expenses": 26819.3,
+    "planned_investment": 21268.18,
+    "horizon_years": 3,
+    "goal": "home_purchase",
+    "risk_responses": [
+      5,
+      4,
+      3,
+      4,
+      3,
+      5,
+      1,
+      1
+    ]
+  },
+  {
+    "id": 6,
+    "age": 54,
+    "income": 86899.65,
+    "expenses": 66602.28,
+    "planned_investment": 4189.16,
+    "horizon_years": 16,
+    "goal": "education",
+    "risk_responses": [
+      1,
+      1,
+      5,
+      5,
+      3,
+      3,
+      3,
+      5
+    ]
+  },
+  {
+    "id": 7,
+    "age": 53,
+    "income": 112783.23,
+    "expenses": 67772.9,
+    "planned_investment": 30966.09,
+    "horizon_years": 9,
+    "goal": "education",
+    "risk_responses": [
+      1,
+      1,
+      3,
+      5,
+      4,
+      3,
+      4,
+      3
+    ]
+  },
+  {
+    "id": 8,
+    "age": 23,
+    "income": 170503.77,
+    "expenses": 93010.7,
+    "planned_investment": 40888.73,
+    "horizon_years": 16,
+    "goal": "retirement",
+    "risk_responses": [
+      2,
+      3,
+      2,
+      2,
+      4,
+      4,
+      4,
+      1
+    ]
+  },
+  {
+    "id": 9,
+    "age": 32,
+    "income": 91869.98,
+    "expenses": 59916.86,
+    "planned_investment": 22954.12,
+    "horizon_years": 14,
+    "goal": "home_purchase",
+    "risk_responses": [
+      4,
+      3,
+      4,
+      2,
+      2,
+      1,
+      2,
+      2
+    ]
+  },
+  {
+    "id": 10,
+    "age": 36,
+    "income": 125362.67,
+    "expenses": 44708.68,
+    "planned_investment": 54987.11,
+    "horizon_years": 6,
+    "goal": "home_purchase",
+    "risk_responses": [
+      3,
+      1,
+      2,
+      4,
+      5,
+      3,
+      5,
+      5
+    ]
+  },
+  {
+    "id": 11,
+    "age": 42,
+    "income": 172495.67,
+    "expenses": 125882.42,
+    "planned_investment": 21481.43,
+    "horizon_years": 20,
+    "goal": "retirement",
+    "risk_responses": [
+      4,
+      5,
+      4,
+      4,
+      4,
+      4,
+      1,
+      4
+    ]
+  },
+  {
+    "id": 12,
+    "age": 47,
+    "income": 29959.65,
+    "expenses": 11595.62,
+    "planned_investment": 4520.02,
+    "horizon_years": 6,
+    "goal": "retirement",
+    "risk_responses": [
+      3,
+      5,
+      1,
+      1,
+      1,
+      5,
+      2,
+      5
+    ]
+  },
+  {
+    "id": 13,
+    "age": 28,
+    "income": 171831.8,
+    "expenses": 118143.9,
+    "planned_investment": 8011.36,
+    "horizon_years": 7,
+    "goal": "education",
+    "risk_responses": [
+      2,
+      3,
+      3,
+      5,
+      3,
+      4,
+      1,
+      1
+    ]
+  },
+  {
+    "id": 14,
+    "age": 53,
+    "income": 178896.44,
+    "expenses": 108463.87,
+    "planned_investment": 30897.66,
+    "horizon_years": 3,
+    "goal": "wealth_growth",
+    "risk_responses": [
+      1,
+      3,
+      3,
+      4,
+      2,
+      5,
+      1,
+      2
+    ]
+  },
+  {
+    "id": 15,
+    "age": 55,
+    "income": 77880.39,
+    "expenses": 56816.64,
+    "planned_investment": 15585.11,
+    "horizon_years": 17,
+    "goal": "home_purchase",
+    "risk_responses": [
+      1,
+      3,
+      5,
+      3,
+      2,
+      3,
+      2,
+      5
+    ]
+  },
+  {
+    "id": 16,
+    "age": 56,
+    "income": 144648.78,
+    "expenses": 76854.18,
+    "planned_investment": 17364.18,
+    "horizon_years": 7,
+    "goal": "wealth_growth",
+    "risk_responses": [
+      4,
+      2,
+      2,
+      5,
+      4,
+      3,
+      1,
+      1
+    ]
+  },
+  {
+    "id": 17,
+    "age": 39,
+    "income": 95558.41,
+    "expenses": 43622.87,
+    "planned_investment": 27193.31,
+    "horizon_years": 12,
+    "goal": "education",
+    "risk_responses": [
+      3,
+      3,
+      1,
+      2,
+      1,
+      2,
+      4,
+      2
+    ]
+  },
+  {
+    "id": 18,
+    "age": 43,
+    "income": 52699.74,
+    "expenses": 36533.38,
+    "planned_investment": 11804.93,
+    "horizon_years": 1,
+    "goal": "education",
+    "risk_responses": [
+      3,
+      1,
+      1,
+      4,
+      2,
+      4,
+      2,
+      4
+    ]
+  },
+  {
+    "id": 19,
+    "age": 43,
+    "income": 33879.98,
+    "expenses": 29488.83,
+    "planned_investment": 2657.86,
+    "horizon_years": 15,
+    "goal": "education",
+    "risk_responses": [
+      1,
+      2,
+      2,
+      2,
+      1,
+      2,
+      5,
+      4
+    ]
+  },
+  {
+    "id": 20,
+    "age": 31,
+    "income": 117851.73,
+    "expenses": 79871.5,
+    "planned_investment": 16409.36,
+    "horizon_years": 12,
+    "goal": "wealth_growth",
+    "risk_responses": [
+      5,
+      5,
+      2,
+      1,
+      1,
+      1,
+      5,
+      2
+    ]
+  },
+  {
+    "id": 21,
+    "age": 49,
+    "income": 177847.91,
+    "expenses": 81301.92,
+    "planned_investment": 68715.14,
+    "horizon_years": 1,
+    "goal": "home_purchase",
+    "risk_responses": [
+      2,
+      3,
+      5,
+      2,
+      5,
+      3,
+      3,
+      5
+    ]
+  },
+  {
+    "id": 22,
+    "age": 48,
+    "income": 153471.2,
+    "expenses": 58855.82,
+    "planned_investment": 58467.14,
+    "horizon_years": 15,
+    "goal": "education",
+    "risk_responses": [
+      5,
+      2,
+      5,
+      2,
+      5,
+      5,
+      1,
+      4
+    ]
+  },
+  {
+    "id": 23,
+    "age": 33,
+    "income": 117368.74,
+    "expenses": 91174.55,
+    "planned_investment": 5366.19,
+    "horizon_years": 5,
+    "goal": "education",
+    "risk_responses": [
+      5,
+      1,
+      5,
+      1,
+      3,
+      5,
+      5,
+      5
+    ]
+  },
+  {
+    "id": 24,
+    "age": 52,
+    "income": 145483.6,
+    "expenses": 59409.71,
+    "planned_investment": 42366.2,
+    "horizon_years": 8,
+    "goal": "wealth_growth",
+    "risk_responses": [
+      3,
+      1,
+      1,
+      5,
+      4,
+      5,
+      1,
+      1
+    ]
+  },
+  {
+    "id": 25,
+    "age": 50,
+    "income": 72098.18,
+    "expenses": 63831.99,
+    "planned_investment": 4333.93,
+    "horizon_years": 7,
+    "goal": "home_purchase",
+    "risk_responses": [
+      4,
+      5,
+      5,
+      4,
+      5,
+      2,
+      5,
+      3
+    ]
+  },
+  {
+    "id": 26,
+    "age": 57,
+    "income": 162840.79,
+    "expenses": 75138.6,
+    "planned_investment": 36244.66,
+    "horizon_years": 14,
+    "goal": "retirement",
+    "risk_responses": [
+      4,
+      4,
+      3,
+      1,
+      2,
+      4,
+      1,
+      2
+    ]
+  },
+  {
+    "id": 27,
+    "age": 41,
+    "income": 145429.76,
+    "expenses": 122650.3,
+    "planned_investment": 4740.69,
+    "horizon_years": 12,
+    "goal": "wealth_growth",
+    "risk_responses": [
+      3,
+      2,
+      4,
+      2,
+      1,
+      4,
+      4,
+      2
+    ]
+  },
+  {
+    "id": 28,
+    "age": 36,
+    "income": 45834.57,
+    "expenses": 26920.34,
+    "planned_investment": 8718.01,
+    "horizon_years": 11,
+    "goal": "education",
+    "risk_responses": [
+      2,
+      3,
+      3,
+      1,
+      3,
+      1,
+      3,
+      5
+    ]
+  },
+  {
+    "id": 29,
+    "age": 51,
+    "income": 90473.3,
+    "expenses": 32565.42,
+    "planned_investment": 19228.23,
+    "horizon_years": 20,
+    "goal": "home_purchase",
+    "risk_responses": [
+      5,
+      1,
+      1,
+      2,
+      1,
+      1,
+      3,
+      3
+    ]
+  },
+  {
+    "id": 30,
+    "age": 24,
+    "income": 164943.79,
+    "expenses": 74200.5,
+    "planned_investment": 57081.48,
+    "horizon_years": 14,
+    "goal": "home_purchase",
+    "risk_responses": [
+      4,
+      2,
+      5,
+      5,
+      5,
+      4,
+      3,
+      1
+    ]
+  },
+  {
+    "id": 31,
+    "age": 39,
+    "income": 29204.24,
+    "expenses": 21275.67,
+    "planned_investment": 3153.37,
+    "horizon_years": 3,
+    "goal": "home_purchase",
+    "risk_responses": [
+      1,
+      1,
+      3,
+      1,
+      5,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "id": 32,
+    "age": 29,
+    "income": 92603.76,
+    "expenses": 49685.02,
+    "planned_investment": 20907.65,
+    "horizon_years": 9,
+    "goal": "wealth_growth",
+    "risk_responses": [
+      1,
+      5,
+      2,
+      1,
+      2,
+      3,
+      1,
+      2
+    ]
+  },
+  {
+    "id": 33,
+    "age": 34,
+    "income": 169159.5,
+    "expenses": 117695.96,
+    "planned_investment": 24278.45,
+    "horizon_years": 7,
+    "goal": "home_purchase",
+    "risk_responses": [
+      4,
+      5,
+      2,
+      3,
+      3,
+      1,
+      3,
+      1
+    ]
+  },
+  {
+    "id": 34,
+    "age": 22,
+    "income": 22949.42,
+    "expenses": 14414.76,
+    "planned_investment": 6696.61,
+    "horizon_years": 17,
+    "goal": "education",
+    "risk_responses": [
+      2,
+      4,
+      1,
+      4,
+      4,
+      5,
+      4,
+      5
+    ]
+  },
+  {
+    "id": 35,
+    "age": 41,
+    "income": 130038.68,
+    "expenses": 115778.94,
+    "planned_investment": 4846.79,
+    "horizon_years": 5,
+    "goal": "education",
+    "risk_responses": [
+      3,
+      1,
+      2,
+      1,
+      1,
+      3,
+      4,
+      2
+    ]
+  },
+  {
+    "id": 36,
+    "age": 25,
+    "income": 33517.58,
+    "expenses": 27239.67,
+    "planned_investment": 4453.4,
+    "horizon_years": 10,
+    "goal": "wealth_growth",
+    "risk_responses": [
+      3,
+      1,
+      4,
+      2,
+      2,
+      3,
+      4,
+      1
+    ]
+  },
+  {
+    "id": 37,
+    "age": 38,
+    "income": 78262.62,
+    "expenses": 41550.36,
+    "planned_investment": 28982.05,
+    "horizon_years": 11,
+    "goal": "wealth_growth",
+    "risk_responses": [
+      1,
+      3,
+      2,
+      3,
+      2,
+      1,
+      3,
+      4
+    ]
+  },
+  {
+    "id": 38,
+    "age": 27,
+    "income": 95942.98,
+    "expenses": 60110.22,
+    "planned_investment": 8624.45,
+    "horizon_years": 17,
+    "goal": "retirement",
+    "risk_responses": [
+      1,
+      3,
+      1,
+      2,
+      4,
+      5,
+      1,
+      4
+    ]
+  },
+  {
+    "id": 39,
+    "age": 23,
+    "income": 67943.37,
+    "expenses": 47310.22,
+    "planned_investment": 3283.52,
+    "horizon_years": 17,
+    "goal": "wealth_growth",
+    "risk_responses": [
+      5,
+      4,
+      3,
+      4,
+      2,
+      3,
+      5,
+      2
+    ]
+  },
+  {
+    "id": 40,
+    "age": 24,
+    "income": 151977.14,
+    "expenses": 112957.93,
+    "planned_investment": 17913.21,
+    "horizon_years": 14,
+    "goal": "wealth_growth",
+    "risk_responses": [
+      5,
+      5,
+      5,
+      1,
+      5,
+      2,
+      1,
+      1
+    ]
+  },
+  {
+    "id": 41,
+    "age": 24,
+    "income": 41294.91,
+    "expenses": 22645.68,
+    "planned_investment": 3234.55,
+    "horizon_years": 15,
+    "goal": "retirement",
+    "risk_responses": [
+      1,
+      5,
+      2,
+      4,
+      3,
+      1,
+      4,
+      1
+    ]
+  },
+  {
+    "id": 42,
+    "age": 54,
+    "income": 163657.21,
+    "expenses": 65555.85,
+    "planned_investment": 45930.38,
+    "horizon_years": 16,
+    "goal": "home_purchase",
+    "risk_responses": [
+      1,
+      3,
+      2,
+      2,
+      2,
+      4,
+      4,
+      4
+    ]
+  },
+  {
+    "id": 43,
+    "age": 26,
+    "income": 96641.63,
+    "expenses": 70165.02,
+    "planned_investment": 16862.4,
+    "horizon_years": 20,
+    "goal": "wealth_growth",
+    "risk_responses": [
+      1,
+      5,
+      2,
+      3,
+      3,
+      3,
+      5,
+      5
+    ]
+  },
+  {
+    "id": 44,
+    "age": 30,
+    "income": 21995.07,
+    "expenses": 8432.11,
+    "planned_investment": 3908.05,
+    "horizon_years": 4,
+    "goal": "wealth_growth",
+    "risk_responses": [
+      4,
+      3,
+      5,
+      3,
+      4,
+      4,
+      4,
+      1
+    ]
+  },
+  {
+    "id": 45,
+    "age": 57,
+    "income": 51880.0,
+    "expenses": 46067.84,
+    "planned_investment": 4390.38,
+    "horizon_years": 1,
+    "goal": "home_purchase",
+    "risk_responses": [
+      4,
+      1,
+      5,
+      4,
+      3,
+      4,
+      2,
+      2
+    ]
+  },
+  {
+    "id": 46,
+    "age": 26,
+    "income": 113035.58,
+    "expenses": 48374.41,
+    "planned_investment": 30186.81,
+    "horizon_years": 12,
+    "goal": "wealth_growth",
+    "risk_responses": [
+      5,
+      5,
+      3,
+      1,
+      3,
+      2,
+      4,
+      4
+    ]
+  },
+  {
+    "id": 47,
+    "age": 47,
+    "income": 23973.5,
+    "expenses": 8438.07,
+    "planned_investment": 6900.64,
+    "horizon_years": 15,
+    "goal": "education",
+    "risk_responses": [
+      3,
+      2,
+      4,
+      3,
+      4,
+      3,
+      1,
+      3
+    ]
+  },
+  {
+    "id": 48,
+    "age": 22,
+    "income": 71927.61,
+    "expenses": 38556.79,
+    "planned_investment": 12640.26,
+    "horizon_years": 7,
+    "goal": "retirement",
+    "risk_responses": [
+      3,
+      3,
+      3,
+      1,
+      4,
+      4,
+      5,
+      1
+    ]
+  },
+  {
+    "id": 49,
+    "age": 45,
+    "income": 168066.48,
+    "expenses": 128673.55,
+    "planned_investment": 27495.43,
+    "horizon_years": 9,
+    "goal": "retirement",
+    "risk_responses": [
+      1,
+      3,
+      2,
+      2,
+      3,
+      4,
+      5,
+      3
+    ]
+  },
+  {
+    "id": 50,
+    "age": 34,
+    "income": 143709.38,
+    "expenses": 112356.09,
+    "planned_investment": 12523.24,
+    "horizon_years": 1,
+    "goal": "education",
+    "risk_responses": [
+      5,
+      5,
+      2,
+      1,
+      1,
+      4,
+      4,
+      5
+    ]
+  },
+  {
+    "id": 51,
+    "age": 30,
+    "income": 123118.51,
+    "expenses": 62472.13,
+    "planned_investment": 8143.83,
+    "horizon_years": 18,
+    "goal": "wealth_growth",
+    "risk_responses": [
+      2,
+      4,
+      4,
+      3,
+      3,
+      3,
+      3,
+      3
+    ]
+  },
+  {
+    "id": 52,
+    "age": 47,
+    "income": 124959.25,
+    "expenses": 64411.49,
+    "planned_investment": 29675.98,
+    "horizon_years": 13,
+    "goal": "retirement",
+    "risk_responses": [
+      2,
+      2,
+      1,
+      2,
+      5,
+      4,
+      5,
+      2
+    ]
+  },
+  {
+    "id": 53,
+    "age": 50,
+    "income": 165001.5,
+    "expenses": 148181.47,
+    "planned_investment": 6979.85,
+    "horizon_years": 5,
+    "goal": "wealth_growth",
+    "risk_responses": [
+      2,
+      1,
+      2,
+      3,
+      5,
+      1,
+      3,
+      2
+    ]
+  },
+  {
+    "id": 54,
+    "age": 45,
+    "income": 61337.21,
+    "expenses": 40684.34,
+    "planned_investment": 14892.29,
+    "horizon_years": 14,
+    "goal": "education",
+    "risk_responses": [
+      4,
+      5,
+      2,
+      4,
+      3,
+      3,
+      1,
+      4
+    ]
+  },
+  {
+    "id": 55,
+    "age": 39,
+    "income": 111884.92,
+    "expenses": 61321.88,
+    "planned_investment": 29363.34,
+    "horizon_years": 17,
+    "goal": "wealth_growth",
+    "risk_responses": [
+      1,
+      3,
+      2,
+      4,
+      4,
+      4,
+      4,
+      3
+    ]
+  },
+  {
+    "id": 56,
+    "age": 23,
+    "income": 40359.52,
+    "expenses": 23564.31,
+    "planned_investment": 10657.97,
+    "horizon_years": 16,
+    "goal": "education",
+    "risk_responses": [
+      1,
+      1,
+      4,
+      5,
+      4,
+      4,
+      2,
+      1
+    ]
+  },
+  {
+    "id": 57,
+    "age": 36,
+    "income": 44700.54,
+    "expenses": 28487.7,
+    "planned_investment": 9362.14,
+    "horizon_years": 15,
+    "goal": "retirement",
+    "risk_responses": [
+      5,
+      1,
+      1,
+      2,
+      2,
+      5,
+      1,
+      3
+    ]
+  },
+  {
+    "id": 58,
+    "age": 30,
+    "income": 120235.64,
+    "expenses": 77015.64,
+    "planned_investment": 17556.02,
+    "horizon_years": 4,
+    "goal": "retirement",
+    "risk_responses": [
+      1,
+      3,
+      5,
+      5,
+      2,
+      4,
+      3,
+      2
+    ]
+  },
+  {
+    "id": 59,
+    "age": 22,
+    "income": 21673.86,
+    "expenses": 11180.17,
+    "planned_investment": 4433.41,
+    "horizon_years": 11,
+    "goal": "wealth_growth",
+    "risk_responses": [
+      4,
+      5,
+      2,
+      5,
+      2,
+      1,
+      4,
+      3
+    ]
+  },
+  {
+    "id": 60,
+    "age": 25,
+    "income": 23485.98,
+    "expenses": 14656.91,
+    "planned_investment": 5051.33,
+    "horizon_years": 14,
+    "goal": "retirement",
+    "risk_responses": [
+      3,
+      2,
+      4,
+      3,
+      2,
+      4,
+      1,
+      3
+    ]
+  },
+  {
+    "id": 61,
+    "age": 48,
+    "income": 77971.18,
+    "expenses": 44287.4,
+    "planned_investment": 3527.62,
+    "horizon_years": 10,
+    "goal": "retirement",
+    "risk_responses": [
+      2,
+      4,
+      2,
+      3,
+      2,
+      2,
+      4,
+      2
+    ]
+  },
+  {
+    "id": 62,
+    "age": 38,
+    "income": 141675.32,
+    "expenses": 72567.95,
+    "planned_investment": 52960.35,
+    "horizon_years": 16,
+    "goal": "wealth_growth",
+    "risk_responses": [
+      2,
+      4,
+      4,
+      1,
+      5,
+      2,
+      4,
+      1
+    ]
+  },
+  {
+    "id": 63,
+    "age": 35,
+    "income": 23780.6,
+    "expenses": 16120.15,
+    "planned_investment": 2993.47,
+    "horizon_years": 2,
+    "goal": "wealth_growth",
+    "risk_responses": [
+      4,
+      4,
+      3,
+      1,
+      1,
+      2,
+      3,
+      2
+    ]
+  },
+  {
+    "id": 64,
+    "age": 33,
+    "income": 124394.92,
+    "expenses": 79443.41,
+    "planned_investment": 19209.18,
+    "horizon_years": 10,
+    "goal": "education",
+    "risk_responses": [
+      3,
+      3,
+      4,
+      2,
+      1,
+      1,
+      1,
+      3
+    ]
+  },
+  {
+    "id": 65,
+    "age": 27,
+    "income": 76234.7,
+    "expenses": 66746.01,
+    "planned_investment": 1770.55,
+    "horizon_years": 7,
+    "goal": "education",
+    "risk_responses": [
+      3,
+      3,
+      4,
+      1,
+      1,
+      4,
+      2,
+      3
+    ]
+  },
+  {
+    "id": 66,
+    "age": 56,
+    "income": 167121.03,
+    "expenses": 76234.66,
+    "planned_investment": 32262.31,
+    "horizon_years": 16,
+    "goal": "retirement",
+    "risk_responses": [
+      4,
+      2,
+      4,
+      1,
+      4,
+      1,
+      4,
+      1
+    ]
+  },
+  {
+    "id": 67,
+    "age": 25,
+    "income": 61122.55,
+    "expenses": 46514.74,
+    "planned_investment": 10648.9,
+    "horizon_years": 11,
+    "goal": "home_purchase",
+    "risk_responses": [
+      3,
+      3,
+      5,
+      1,
+      3,
+      3,
+      3,
+      3
+    ]
+  },
+  {
+    "id": 68,
+    "age": 22,
+    "income": 135451.53,
+    "expenses": 91776.88,
+    "planned_investment": 28998.26,
+    "horizon_years": 3,
+    "goal": "retirement",
+    "risk_responses": [
+      2,
+      1,
+      4,
+      4,
+      4,
+      3,
+      4,
+      4
+    ]
+  },
+  {
+    "id": 69,
+    "age": 30,
+    "income": 168495.91,
+    "expenses": 75927.05,
+    "planned_investment": 61261.87,
+    "horizon_years": 10,
+    "goal": "wealth_growth",
+    "risk_responses": [
+      5,
+      2,
+      3,
+      3,
+      4,
+      3,
+      5,
+      1
+    ]
+  },
+  {
+    "id": 70,
+    "age": 54,
+    "income": 51569.89,
+    "expenses": 39403.89,
+    "planned_investment": 3322.72,
+    "horizon_years": 3,
+    "goal": "retirement",
+    "risk_responses": [
+      4,
+      5,
+      5,
+      3,
+      2,
+      4,
+      1,
+      1
+    ]
+  },
+  {
+    "id": 71,
+    "age": 38,
+    "income": 119936.25,
+    "expenses": 55720.89,
+    "planned_investment": 25348.51,
+    "horizon_years": 15,
+    "goal": "wealth_growth",
+    "risk_responses": [
+      2,
+      2,
+      4,
+      4,
+      5,
+      2,
+      5,
+      1
+    ]
+  },
+  {
+    "id": 72,
+    "age": 40,
+    "income": 67005.14,
+    "expenses": 44343.09,
+    "planned_investment": 8182.81,
+    "horizon_years": 9,
+    "goal": "wealth_growth",
+    "risk_responses": [
+      4,
+      2,
+      2,
+      2,
+      2,
+      2,
+      3,
+      5
+    ]
+  },
+  {
+    "id": 73,
+    "age": 34,
+    "income": 72214.07,
+    "expenses": 41005.91,
+    "planned_investment": 24801.56,
+    "horizon_years": 17,
+    "goal": "wealth_growth",
+    "risk_responses": [
+      1,
+      4,
+      1,
+      1,
+      1,
+      4,
+      2,
+      4
+    ]
+  },
+  {
+    "id": 74,
+    "age": 45,
+    "income": 26457.9,
+    "expenses": 13533.81,
+    "planned_investment": 2370.94,
+    "horizon_years": 7,
+    "goal": "wealth_growth",
+    "risk_responses": [
+      1,
+      3,
+      5,
+      2,
+      4,
+      5,
+      3,
+      1
+    ]
+  },
+  {
+    "id": 75,
+    "age": 28,
+    "income": 121993.17,
+    "expenses": 90316.22,
+    "planned_investment": 10921.89,
+    "horizon_years": 2,
+    "goal": "home_purchase",
+    "risk_responses": [
+      3,
+      2,
+      1,
+      2,
+      3,
+      1,
+      5,
+      2
+    ]
+  },
+  {
+    "id": 76,
+    "age": 22,
+    "income": 151013.3,
+    "expenses": 86824.67,
+    "planned_investment": 23125.01,
+    "horizon_years": 20,
+    "goal": "home_purchase",
+    "risk_responses": [
+      1,
+      2,
+      1,
+      4,
+      5,
+      4,
+      1,
+      4
+    ]
+  },
+  {
+    "id": 77,
+    "age": 28,
+    "income": 147335.02,
+    "expenses": 105376.15,
+    "planned_investment": 8735.27,
+    "horizon_years": 18,
+    "goal": "retirement",
+    "risk_responses": [
+      2,
+      4,
+      3,
+      4,
+      3,
+      3,
+      4,
+      1
+    ]
+  },
+  {
+    "id": 78,
+    "age": 41,
+    "income": 139254.01,
+    "expenses": 116420.83,
+    "planned_investment": 8901.65,
+    "horizon_years": 1,
+    "goal": "home_purchase",
+    "risk_responses": [
+      2,
+      4,
+      4,
+      2,
+      1,
+      4,
+      2,
+      4
+    ]
+  },
+  {
+    "id": 79,
+    "age": 29,
+    "income": 151258.97,
+    "expenses": 86734.88,
+    "planned_investment": 46327.43,
+    "horizon_years": 15,
+    "goal": "wealth_growth",
+    "risk_responses": [
+      2,
+      1,
+      1,
+      5,
+      2,
+      4,
+      1,
+      5
+    ]
+  },
+  {
+    "id": 80,
+    "age": 45,
+    "income": 137959.83,
+    "expenses": 61313.09,
+    "planned_investment": 26332.87,
+    "horizon_years": 6,
+    "goal": "wealth_growth",
+    "risk_responses": [
+      1,
+      1,
+      4,
+      4,
+      2,
+      3,
+      2,
+      1
+    ]
+  },
+  {
+    "id": 81,
+    "age": 52,
+    "income": 70324.16,
+    "expenses": 48116.11,
+    "planned_investment": 12113.54,
+    "horizon_years": 3,
+    "goal": "wealth_growth",
+    "risk_responses": [
+      2,
+      5,
+      4,
+      5,
+      2,
+      4,
+      2,
+      5
+    ]
+  },
+  {
+    "id": 82,
+    "age": 35,
+    "income": 26674.01,
+    "expenses": 23105.08,
+    "planned_investment": 747.82,
+    "horizon_years": 12,
+    "goal": "retirement",
+    "risk_responses": [
+      2,
+      2,
+      2,
+      1,
+      5,
+      1,
+      3,
+      1
+    ]
+  },
+  {
+    "id": 83,
+    "age": 46,
+    "income": 115923.16,
+    "expenses": 75643.17,
+    "planned_investment": 21708.08,
+    "horizon_years": 10,
+    "goal": "education",
+    "risk_responses": [
+      3,
+      5,
+      2,
+      4,
+      4,
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "id": 84,
+    "age": 50,
+    "income": 48602.23,
+    "expenses": 17104.56,
+    "planned_investment": 24892.49,
+    "horizon_years": 15,
+    "goal": "wealth_growth",
+    "risk_responses": [
+      4,
+      5,
+      4,
+      2,
+      4,
+      4,
+      1,
+      1
+    ]
+  },
+  {
+    "id": 85,
+    "age": 30,
+    "income": 77372.01,
+    "expenses": 42626.78,
+    "planned_investment": 22987.36,
+    "horizon_years": 17,
+    "goal": "retirement",
+    "risk_responses": [
+      1,
+      2,
+      1,
+      3,
+      5,
+      1,
+      1,
+      5
+    ]
+  },
+  {
+    "id": 86,
+    "age": 46,
+    "income": 124439.31,
+    "expenses": 97228.6,
+    "planned_investment": 3213.57,
+    "horizon_years": 3,
+    "goal": "retirement",
+    "risk_responses": [
+      2,
+      2,
+      4,
+      3,
+      2,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "id": 87,
+    "age": 38,
+    "income": 45402.79,
+    "expenses": 38278.89,
+    "planned_investment": 2083.7,
+    "horizon_years": 15,
+    "goal": "wealth_growth",
+    "risk_responses": [
+      3,
+      5,
+      4,
+      2,
+      5,
+      3,
+      5,
+      5
+    ]
+  },
+  {
+    "id": 88,
+    "age": 37,
+    "income": 71052.4,
+    "expenses": 26307.73,
+    "planned_investment": 10177.96,
+    "horizon_years": 6,
+    "goal": "home_purchase",
+    "risk_responses": [
+      3,
+      4,
+      2,
+      3,
+      1,
+      5,
+      1,
+      3
+    ]
+  },
+  {
+    "id": 89,
+    "age": 50,
+    "income": 108828.82,
+    "expenses": 72809.1,
+    "planned_investment": 25854.04,
+    "horizon_years": 4,
+    "goal": "home_purchase",
+    "risk_responses": [
+      5,
+      4,
+      3,
+      3,
+      4,
+      3,
+      5,
+      2
+    ]
+  },
+  {
+    "id": 90,
+    "age": 45,
+    "income": 72932.62,
+    "expenses": 28791.03,
+    "planned_investment": 11522.42,
+    "horizon_years": 20,
+    "goal": "retirement",
+    "risk_responses": [
+      3,
+      5,
+      3,
+      3,
+      5,
+      3,
+      1,
+      1
+    ]
+  },
+  {
+    "id": 91,
+    "age": 36,
+    "income": 43898.36,
+    "expenses": 30238.45,
+    "planned_investment": 5498.98,
+    "horizon_years": 17,
+    "goal": "home_purchase",
+    "risk_responses": [
+      1,
+      2,
+      4,
+      2,
+      5,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "id": 92,
+    "age": 22,
+    "income": 110739.39,
+    "expenses": 57258.5,
+    "planned_investment": 24930.76,
+    "horizon_years": 18,
+    "goal": "wealth_growth",
+    "risk_responses": [
+      4,
+      5,
+      3,
+      5,
+      2,
+      2,
+      3,
+      5
+    ]
+  },
+  {
+    "id": 93,
+    "age": 52,
+    "income": 45379.75,
+    "expenses": 16235.13,
+    "planned_investment": 19266.11,
+    "horizon_years": 5,
+    "goal": "education",
+    "risk_responses": [
+      1,
+      1,
+      2,
+      3,
+      4,
+      3,
+      1,
+      1
+    ]
+  },
+  {
+    "id": 94,
+    "age": 57,
+    "income": 162828.25,
+    "expenses": 110250.74,
+    "planned_investment": 26548.0,
+    "horizon_years": 20,
+    "goal": "education",
+    "risk_responses": [
+      2,
+      2,
+      1,
+      1,
+      1,
+      5,
+      1,
+      4
+    ]
+  },
+  {
+    "id": 95,
+    "age": 33,
+    "income": 58027.01,
+    "expenses": 22172.62,
+    "planned_investment": 23133.63,
+    "horizon_years": 1,
+    "goal": "wealth_growth",
+    "risk_responses": [
+      2,
+      4,
+      2,
+      5,
+      5,
+      5,
+      4,
+      5
+    ]
+  },
+  {
+    "id": 96,
+    "age": 33,
+    "income": 101372.16,
+    "expenses": 39035.58,
+    "planned_investment": 33547.97,
+    "horizon_years": 16,
+    "goal": "retirement",
+    "risk_responses": [
+      4,
+      4,
+      4,
+      1,
+      4,
+      2,
+      2,
+      1
+    ]
+  },
+  {
+    "id": 97,
+    "age": 38,
+    "income": 57167.47,
+    "expenses": 21229.12,
+    "planned_investment": 12034.36,
+    "horizon_years": 9,
+    "goal": "retirement",
+    "risk_responses": [
+      3,
+      5,
+      4,
+      5,
+      3,
+      3,
+      2,
+      1
+    ]
+  },
+  {
+    "id": 98,
+    "age": 54,
+    "income": 22436.43,
+    "expenses": 11065.71,
+    "planned_investment": 3016.39,
+    "horizon_years": 7,
+    "goal": "wealth_growth",
+    "risk_responses": [
+      3,
+      2,
+      4,
+      3,
+      5,
+      2,
+      4,
+      5
+    ]
+  },
+  {
+    "id": 99,
+    "age": 52,
+    "income": 95542.48,
+    "expenses": 61322.99,
+    "planned_investment": 3574.81,
+    "horizon_years": 1,
+    "goal": "education",
+    "risk_responses": [
+      2,
+      5,
+      3,
+      2,
+      4,
+      5,
+      5,
+      1
+    ]
+  },
+  {
+    "id": 100,
+    "age": 58,
+    "income": 165726.36,
+    "expenses": 71183.98,
+    "planned_investment": 11234.64,
+    "horizon_years": 4,
+    "goal": "wealth_growth",
+    "risk_responses": [
+      3,
+      2,
+      1,
+      1,
+      1,
+      2,
+      1,
+      1
+    ]
+  },
+  {
+    "id": 101,
+    "age": 24,
+    "income": 30522.44,
+    "expenses": 20595.32,
+    "planned_investment": 3518.01,
+    "horizon_years": 18,
+    "goal": "retirement",
+    "risk_responses": [
+      4,
+      1,
+      2,
+      2,
+      2,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "id": 102,
+    "age": 27,
+    "income": 152009.64,
+    "expenses": 106003.18,
+    "planned_investment": 13855.1,
+    "horizon_years": 4,
+    "goal": "wealth_growth",
+    "risk_responses": [
+      1,
+      2,
+      3,
+      3,
+      3,
+      4,
+      3,
+      1
+    ]
+  },
+  {
+    "id": 103,
+    "age": 44,
+    "income": 61072.36,
+    "expenses": 30867.58,
+    "planned_investment": 18154.09,
+    "horizon_years": 12,
+    "goal": "home_purchase",
+    "risk_responses": [
+      5,
+      5,
+      4,
+      3,
+      5,
+      1,
+      4,
+      1
+    ]
+  },
+  {
+    "id": 104,
+    "age": 49,
+    "income": 102979.58,
+    "expenses": 41610.42,
+    "planned_investment": 26281.91,
+    "horizon_years": 2,
+    "goal": "wealth_growth",
+    "risk_responses": [
+      1,
+      5,
+      3,
+      2,
+      4,
+      1,
+      5,
+      2
+    ]
+  },
+  {
+    "id": 105,
+    "age": 40,
+    "income": 141948.96,
+    "expenses": 126026.0,
+    "planned_investment": 1640.91,
+    "horizon_years": 16,
+    "goal": "retirement",
+    "risk_responses": [
+      4,
+      2,
+      4,
+      5,
+      3,
+      5,
+      3,
+      5
+    ]
+  },
+  {
+    "id": 106,
+    "age": 32,
+    "income": 65396.76,
+    "expenses": 30611.76,
+    "planned_investment": 20510.47,
+    "horizon_years": 16,
+    "goal": "wealth_growth",
+    "risk_responses": [
+      1,
+      1,
+      4,
+      5,
+      1,
+      3,
+      3,
+      1
+    ]
+  },
+  {
+    "id": 107,
+    "age": 47,
+    "income": 168560.73,
+    "expenses": 141677.48,
+    "planned_investment": 16712.08,
+    "horizon_years": 14,
+    "goal": "retirement",
+    "risk_responses": [
+      3,
+      2,
+      3,
+      3,
+      4,
+      5,
+      5,
+      2
+    ]
+  },
+  {
+    "id": 108,
+    "age": 46,
+    "income": 177185.58,
+    "expenses": 123482.27,
+    "planned_investment": 40854.48,
+    "horizon_years": 5,
+    "goal": "retirement",
+    "risk_responses": [
+      3,
+      5,
+      3,
+      5,
+      2,
+      4,
+      5,
+      3
+    ]
+  },
+  {
+    "id": 109,
+    "age": 32,
+    "income": 94105.14,
+    "expenses": 68601.12,
+    "planned_investment": 7142.38,
+    "horizon_years": 8,
+    "goal": "wealth_growth",
+    "risk_responses": [
+      3,
+      4,
+      2,
+      5,
+      2,
+      3,
+      3,
+      5
+    ]
+  },
+  {
+    "id": 110,
+    "age": 31,
+    "income": 135733.78,
+    "expenses": 120276.69,
+    "planned_investment": 9370.27,
+    "horizon_years": 20,
+    "goal": "home_purchase",
+    "risk_responses": [
+      2,
+      2,
+      3,
+      2,
+      3,
+      1,
+      2,
+      1
+    ]
+  },
+  {
+    "id": 111,
+    "age": 34,
+    "income": 81477.26,
+    "expenses": 72605.04,
+    "planned_investment": 5823.92,
+    "horizon_years": 10,
+    "goal": "education",
+    "risk_responses": [
+      3,
+      2,
+      1,
+      1,
+      3,
+      2,
+      4,
+      4
+    ]
+  },
+  {
+    "id": 112,
+    "age": 24,
+    "income": 22018.77,
+    "expenses": 18052.75,
+    "planned_investment": 1608.5,
+    "horizon_years": 8,
+    "goal": "home_purchase",
+    "risk_responses": [
+      4,
+      1,
+      2,
+      3,
+      5,
+      4,
+      1,
+      2
+    ]
+  },
+  {
+    "id": 113,
+    "age": 49,
+    "income": 132185.91,
+    "expenses": 88972.32,
+    "planned_investment": 23898.88,
+    "horizon_years": 8,
+    "goal": "wealth_growth",
+    "risk_responses": [
+      2,
+      1,
+      4,
+      4,
+      3,
+      3,
+      1,
+      4
+    ]
+  },
+  {
+    "id": 114,
+    "age": 37,
+    "income": 145180.49,
+    "expenses": 107757.71,
+    "planned_investment": 20235.63,
+    "horizon_years": 9,
+    "goal": "education",
+    "risk_responses": [
+      4,
+      4,
+      1,
+      5,
+      4,
+      5,
+      2,
+      3
+    ]
+  },
+  {
+    "id": 115,
+    "age": 22,
+    "income": 82193.35,
+    "expenses": 50911.55,
+    "planned_investment": 24469.67,
+    "horizon_years": 2,
+    "goal": "home_purchase",
+    "risk_responses": [
+      5,
+      2,
+      2,
+      2,
+      5,
+      3,
+      1,
+      5
+    ]
+  },
+  {
+    "id": 116,
+    "age": 51,
+    "income": 106565.65,
+    "expenses": 79339.5,
+    "planned_investment": 12484.11,
+    "horizon_years": 12,
+    "goal": "home_purchase",
+    "risk_responses": [
+      4,
+      4,
+      2,
+      2,
+      4,
+      5,
+      1,
+      5
+    ]
+  },
+  {
+    "id": 117,
+    "age": 44,
+    "income": 122011.01,
+    "expenses": 59645.29,
+    "planned_investment": 22906.03,
+    "horizon_years": 2,
+    "goal": "retirement",
+    "risk_responses": [
+      1,
+      4,
+      4,
+      3,
+      5,
+      3,
+      1,
+      2
+    ]
+  },
+  {
+    "id": 118,
+    "age": 41,
+    "income": 138635.3,
+    "expenses": 120191.57,
+    "planned_investment": 8649.25,
+    "horizon_years": 8,
+    "goal": "education",
+    "risk_responses": [
+      4,
+      2,
+      2,
+      2,
+      1,
+      2,
+      4,
+      5
+    ]
+  },
+  {
+    "id": 119,
+    "age": 36,
+    "income": 150342.29,
+    "expenses": 64714.07,
+    "planned_investment": 48484.96,
+    "horizon_years": 14,
+    "goal": "education",
+    "risk_responses": [
+      3,
+      5,
+      2,
+      4,
+      3,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "id": 120,
+    "age": 38,
+    "income": 177262.57,
+    "expenses": 128222.92,
+    "planned_investment": 21435.15,
+    "horizon_years": 9,
+    "goal": "home_purchase",
+    "risk_responses": [
+      2,
+      3,
+      3,
+      4,
+      4,
+      4,
+      5,
+      1
+    ]
+  },
+  {
+    "id": 121,
+    "age": 45,
+    "income": 44440.51,
+    "expenses": 22964.31,
+    "planned_investment": 7937.12,
+    "horizon_years": 3,
+    "goal": "home_purchase",
+    "risk_responses": [
+      2,
+      5,
+      3,
+      5,
+      1,
+      1,
+      2,
+      1
+    ]
+  },
+  {
+    "id": 122,
+    "age": 40,
+    "income": 60004.25,
+    "expenses": 24351.62,
+    "planned_investment": 7127.42,
+    "horizon_years": 8,
+    "goal": "wealth_growth",
+    "risk_responses": [
+      4,
+      3,
+      2,
+      2,
+      4,
+      5,
+      2,
+      5
+    ]
+  },
+  {
+    "id": 123,
+    "age": 27,
+    "income": 126953.27,
+    "expenses": 106850.46,
+    "planned_investment": 13100.03,
+    "horizon_years": 10,
+    "goal": "wealth_growth",
+    "risk_responses": [
+      4,
+      2,
+      5,
+      1,
+      4,
+      1,
+      5,
+      1
+    ]
+  },
+  {
+    "id": 124,
+    "age": 38,
+    "income": 87046.1,
+    "expenses": 70061.64,
+    "planned_investment": 7324.88,
+    "horizon_years": 18,
+    "goal": "retirement",
+    "risk_responses": [
+      4,
+      4,
+      2,
+      4,
+      2,
+      4,
+      2,
+      5
+    ]
+  },
+  {
+    "id": 125,
+    "age": 22,
+    "income": 45657.19,
+    "expenses": 24032.86,
+    "planned_investment": 12696.07,
+    "horizon_years": 16,
+    "goal": "home_purchase",
+    "risk_responses": [
+      4,
+      3,
+      4,
+      4,
+      1,
+      2,
+      3,
+      1
+    ]
+  },
+  {
+    "id": 126,
+    "age": 23,
+    "income": 117548.05,
+    "expenses": 85272.11,
+    "planned_investment": 24272.96,
+    "horizon_years": 11,
+    "goal": "retirement",
+    "risk_responses": [
+      5,
+      4,
+      4,
+      2,
+      1,
+      2,
+      4,
+      2
+    ]
+  },
+  {
+    "id": 127,
+    "age": 43,
+    "income": 35114.45,
+    "expenses": 25017.74,
+    "planned_investment": 3421.96,
+    "horizon_years": 17,
+    "goal": "wealth_growth",
+    "risk_responses": [
+      3,
+      4,
+      3,
+      4,
+      3,
+      5,
+      1,
+      3
+    ]
+  },
+  {
+    "id": 128,
+    "age": 40,
+    "income": 76828.56,
+    "expenses": 47752.92,
+    "planned_investment": 9699.79,
+    "horizon_years": 9,
+    "goal": "home_purchase",
+    "risk_responses": [
+      2,
+      4,
+      1,
+      3,
+      2,
+      3,
+      3,
+      2
+    ]
+  },
+  {
+    "id": 129,
+    "age": 27,
+    "income": 145474.49,
+    "expenses": 54120.6,
+    "planned_investment": 55348.91,
+    "horizon_years": 13,
+    "goal": "retirement",
+    "risk_responses": [
+      4,
+      3,
+      1,
+      1,
+      1,
+      2,
+      4,
+      5
+    ]
+  },
+  {
+    "id": 130,
+    "age": 25,
+    "income": 146244.32,
+    "expenses": 124366.49,
+    "planned_investment": 11556.26,
+    "horizon_years": 20,
+    "goal": "wealth_growth",
+    "risk_responses": [
+      5,
+      1,
+      2,
+      1,
+      4,
+      2,
+      1,
+      2
+    ]
+  },
+  {
+    "id": 131,
+    "age": 24,
+    "income": 87451.43,
+    "expenses": 35446.96,
+    "planned_investment": 39074.03,
+    "horizon_years": 1,
+    "goal": "home_purchase",
+    "risk_responses": [
+      2,
+      3,
+      5,
+      3,
+      3,
+      2,
+      4,
+      1
+    ]
+  },
+  {
+    "id": 132,
+    "age": 42,
+    "income": 23262.73,
+    "expenses": 15387.9,
+    "planned_investment": 3975.18,
+    "horizon_years": 2,
+    "goal": "education",
+    "risk_responses": [
+      5,
+      5,
+      1,
+      1,
+      4,
+      5,
+      4,
+      4
+    ]
+  },
+  {
+    "id": 133,
+    "age": 26,
+    "income": 22260.87,
+    "expenses": 12531.28,
+    "planned_investment": 5004.7,
+    "horizon_years": 5,
+    "goal": "education",
+    "risk_responses": [
+      4,
+      5,
+      1,
+      1,
+      4,
+      2,
+      2,
+      1
+    ]
+  },
+  {
+    "id": 134,
+    "age": 49,
+    "income": 20765.32,
+    "expenses": 15077.05,
+    "planned_investment": 1053.3,
+    "horizon_years": 3,
+    "goal": "wealth_growth",
+    "risk_responses": [
+      1,
+      2,
+      4,
+      1,
+      3,
+      5,
+      2,
+      4
+    ]
+  },
+  {
+    "id": 135,
+    "age": 33,
+    "income": 167648.51,
+    "expenses": 92412.97,
+    "planned_investment": 46876.95,
+    "horizon_years": 5,
+    "goal": "retirement",
+    "risk_responses": [
+      3,
+      5,
+      4,
+      4,
+      3,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "id": 136,
+    "age": 25,
+    "income": 22356.73,
+    "expenses": 15825.96,
+    "planned_investment": 4389.59,
+    "horizon_years": 3,
+    "goal": "education",
+    "risk_responses": [
+      3,
+      3,
+      5,
+      2,
+      4,
+      5,
+      1,
+      3
+    ]
+  },
+  {
+    "id": 137,
+    "age": 45,
+    "income": 171801.59,
+    "expenses": 128897.85,
+    "planned_investment": 18399.76,
+    "horizon_years": 6,
+    "goal": "wealth_growth",
+    "risk_responses": [
+      1,
+      3,
+      2,
+      4,
+      4,
+      4,
+      4,
+      3
+    ]
+  },
+  {
+    "id": 138,
+    "age": 58,
+    "income": 73421.69,
+    "expenses": 37000.78,
+    "planned_investment": 19495.86,
+    "horizon_years": 20,
+    "goal": "home_purchase",
+    "risk_responses": [
+      5,
+      1,
+      2,
+      5,
+      3,
+      5,
+      4,
+      2
+    ]
+  },
+  {
+    "id": 139,
+    "age": 46,
+    "income": 81977.08,
+    "expenses": 45653.85,
+    "planned_investment": 23247.3,
+    "horizon_years": 8,
+    "goal": "education",
+    "risk_responses": [
+      3,
+      1,
+      3,
+      3,
+      3,
+      4,
+      2,
+      5
+    ]
+  },
+  {
+    "id": 140,
+    "age": 24,
+    "income": 66163.43,
+    "expenses": 28276.16,
+    "planned_investment": 27408.74,
+    "horizon_years": 19,
+    "goal": "wealth_growth",
+    "risk_responses": [
+      3,
+      5,
+      4,
+      3,
+      5,
+      1,
+      5,
+      5
+    ]
+  },
+  {
+    "id": 141,
+    "age": 53,
+    "income": 147582.17,
+    "expenses": 67922.75,
+    "planned_investment": 49797.41,
+    "horizon_years": 8,
+    "goal": "home_purchase",
+    "risk_responses": [
+      5,
+      1,
+      4,
+      4,
+      2,
+      3,
+      5,
+      1
+    ]
+  },
+  {
+    "id": 142,
+    "age": 46,
+    "income": 93554.79,
+    "expenses": 37256.84,
+    "planned_investment": 37415.76,
+    "horizon_years": 3,
+    "goal": "wealth_growth",
+    "risk_responses": [
+      4,
+      5,
+      5,
+      3,
+      5,
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "id": 143,
+    "age": 34,
+    "income": 50264.23,
+    "expenses": 22909.06,
+    "planned_investment": 6195.54,
+    "horizon_years": 10,
+    "goal": "home_purchase",
+    "risk_responses": [
+      5,
+      5,
+      3,
+      4,
+      5,
+      2,
+      2,
+      1
+    ]
+  },
+  {
+    "id": 144,
+    "age": 53,
+    "income": 79846.47,
+    "expenses": 32606.51,
+    "planned_investment": 25647.51,
+    "horizon_years": 3,
+    "goal": "wealth_growth",
+    "risk_responses": [
+      3,
+      5,
+      1,
+      3,
+      3,
+      5,
+      5,
+      1
+    ]
+  },
+  {
+    "id": 145,
+    "age": 28,
+    "income": 25372.65,
+    "expenses": 22701.48,
+    "planned_investment": 1886.53,
+    "horizon_years": 16,
+    "goal": "wealth_growth",
+    "risk_responses": [
+      3,
+      3,
+      4,
+      1,
+      4,
+      5,
+      5,
+      2
+    ]
+  },
+  {
+    "id": 146,
+    "age": 38,
+    "income": 154999.47,
+    "expenses": 83136.1,
+    "planned_investment": 57219.78,
+    "horizon_years": 13,
+    "goal": "retirement",
+    "risk_responses": [
+      1,
+      1,
+      1,
+      5,
+      3,
+      4,
+      4,
+      1
+    ]
+  },
+  {
+    "id": 147,
+    "age": 47,
+    "income": 167544.75,
+    "expenses": 123732.97,
+    "planned_investment": 7140.01,
+    "horizon_years": 11,
+    "goal": "wealth_growth",
+    "risk_responses": [
+      1,
+      5,
+      4,
+      2,
+      4,
+      2,
+      3,
+      2
+    ]
+  },
+  {
+    "id": 148,
+    "age": 36,
+    "income": 47539.84,
+    "expenses": 41261.85,
+    "planned_investment": 4763.85,
+    "horizon_years": 2,
+    "goal": "retirement",
+    "risk_responses": [
+      1,
+      3,
+      5,
+      4,
+      1,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "id": 149,
+    "age": 22,
+    "income": 170300.89,
+    "expenses": 123006.47,
+    "planned_investment": 14621.3,
+    "horizon_years": 19,
+    "goal": "education",
+    "risk_responses": [
+      1,
+      4,
+      3,
+      3,
+      3,
+      4,
+      1,
+      3
+    ]
+  },
+  {
+    "id": 150,
+    "age": 52,
+    "income": 80743.37,
+    "expenses": 47861.57,
+    "planned_investment": 21875.86,
+    "horizon_years": 1,
+    "goal": "education",
+    "risk_responses": [
+      2,
+      1,
+      2,
+      2,
+      1,
+      5,
+      3,
+      2
+    ]
+  },
+  {
+    "id": 151,
+    "age": 50,
+    "income": 173272.63,
+    "expenses": 148887.44,
+    "planned_investment": 9011.68,
+    "horizon_years": 1,
+    "goal": "retirement",
+    "risk_responses": [
+      4,
+      3,
+      3,
+      2,
+      4,
+      1,
+      3,
+      2
+    ]
+  },
+  {
+    "id": 152,
+    "age": 43,
+    "income": 55464.14,
+    "expenses": 21142.9,
+    "planned_investment": 20579.26,
+    "horizon_years": 18,
+    "goal": "wealth_growth",
+    "risk_responses": [
+      4,
+      2,
+      3,
+      4,
+      4,
+      2,
+      2,
+      1
+    ]
+  },
+  {
+    "id": 153,
+    "age": 39,
+    "income": 111358.46,
+    "expenses": 57138.37,
+    "planned_investment": 35942.56,
+    "horizon_years": 9,
+    "goal": "education",
+    "risk_responses": [
+      1,
+      3,
+      4,
+      4,
+      1,
+      2,
+      5,
+      1
+    ]
+  },
+  {
+    "id": 154,
+    "age": 35,
+    "income": 109590.8,
+    "expenses": 88703.37,
+    "planned_investment": 3831.43,
+    "horizon_years": 7,
+    "goal": "home_purchase",
+    "risk_responses": [
+      4,
+      3,
+      2,
+      2,
+      1,
+      4,
+      3,
+      4
+    ]
+  },
+  {
+    "id": 155,
+    "age": 32,
+    "income": 29197.18,
+    "expenses": 21885.04,
+    "planned_investment": 2233.62,
+    "horizon_years": 1,
+    "goal": "education",
+    "risk_responses": [
+      5,
+      3,
+      5,
+      2,
+      4,
+      1,
+      5,
+      3
+    ]
+  },
+  {
+    "id": 156,
+    "age": 33,
+    "income": 77615.87,
+    "expenses": 28896.49,
+    "planned_investment": 18818.27,
+    "horizon_years": 9,
+    "goal": "wealth_growth",
+    "risk_responses": [
+      2,
+      2,
+      5,
+      2,
+      2,
+      2,
+      5,
+      1
+    ]
+  },
+  {
+    "id": 157,
+    "age": 27,
+    "income": 162292.05,
+    "expenses": 122038.29,
+    "planned_investment": 25476.43,
+    "horizon_years": 6,
+    "goal": "wealth_growth",
+    "risk_responses": [
+      2,
+      5,
+      2,
+      5,
+      3,
+      2,
+      1,
+      1
+    ]
+  },
+  {
+    "id": 158,
+    "age": 55,
+    "income": 85299.68,
+    "expenses": 63711.25,
+    "planned_investment": 2995.62,
+    "horizon_years": 12,
+    "goal": "home_purchase",
+    "risk_responses": [
+      3,
+      4,
+      1,
+      1,
+      4,
+      4,
+      2,
+      3
+    ]
+  },
+  {
+    "id": 159,
+    "age": 37,
+    "income": 49768.35,
+    "expenses": 40182.59,
+    "planned_investment": 3421.83,
+    "horizon_years": 6,
+    "goal": "home_purchase",
+    "risk_responses": [
+      5,
+      5,
+      1,
+      3,
+      5,
+      4,
+      5,
+      1
+    ]
+  },
+  {
+    "id": 160,
+    "age": 29,
+    "income": 77074.92,
+    "expenses": 37350.45,
+    "planned_investment": 27053.62,
+    "horizon_years": 11,
+    "goal": "education",
+    "risk_responses": [
+      5,
+      1,
+      3,
+      1,
+      4,
+      4,
+      5,
+      1
+    ]
+  },
+  {
+    "id": 161,
+    "age": 55,
+    "income": 148720.34,
+    "expenses": 63043.21,
+    "planned_investment": 23173.65,
+    "horizon_years": 3,
+    "goal": "wealth_growth",
+    "risk_responses": [
+      5,
+      2,
+      2,
+      1,
+      3,
+      3,
+      5,
+      1
+    ]
+  },
+  {
+    "id": 162,
+    "age": 23,
+    "income": 35435.42,
+    "expenses": 26024.91,
+    "planned_investment": 2226.15,
+    "horizon_years": 1,
+    "goal": "education",
+    "risk_responses": [
+      5,
+      2,
+      4,
+      1,
+      3,
+      1,
+      2,
+      1
+    ]
+  },
+  {
+    "id": 163,
+    "age": 39,
+    "income": 39687.87,
+    "expenses": 24665.04,
+    "planned_investment": 6768.22,
+    "horizon_years": 9,
+    "goal": "retirement",
+    "risk_responses": [
+      1,
+      1,
+      4,
+      2,
+      5,
+      5,
+      2,
+      2
+    ]
+  },
+  {
+    "id": 164,
+    "age": 31,
+    "income": 127004.1,
+    "expenses": 76727.0,
+    "planned_investment": 18986.07,
+    "horizon_years": 1,
+    "goal": "education",
+    "risk_responses": [
+      4,
+      5,
+      5,
+      5,
+      1,
+      4,
+      1,
+      3
+    ]
+  },
+  {
+    "id": 165,
+    "age": 43,
+    "income": 84113.09,
+    "expenses": 68233.6,
+    "planned_investment": 9541.51,
+    "horizon_years": 19,
+    "goal": "home_purchase",
+    "risk_responses": [
+      4,
+      5,
+      1,
+      3,
+      5,
+      2,
+      3,
+      2
+    ]
+  },
+  {
+    "id": 166,
+    "age": 49,
+    "income": 126098.94,
+    "expenses": 44935.98,
+    "planned_investment": 14310.48,
+    "horizon_years": 6,
+    "goal": "retirement",
+    "risk_responses": [
+      3,
+      4,
+      2,
+      5,
+      1,
+      2,
+      2,
+      4
+    ]
+  },
+  {
+    "id": 167,
+    "age": 47,
+    "income": 144252.73,
+    "expenses": 124823.92,
+    "planned_investment": 10554.66,
+    "horizon_years": 2,
+    "goal": "retirement",
+    "risk_responses": [
+      5,
+      3,
+      5,
+      3,
+      5,
+      1,
+      5,
+      1
+    ]
+  },
+  {
+    "id": 168,
+    "age": 38,
+    "income": 39471.94,
+    "expenses": 14111.89,
+    "planned_investment": 6737.07,
+    "horizon_years": 2,
+    "goal": "home_purchase",
+    "risk_responses": [
+      1,
+      3,
+      3,
+      2,
+      1,
+      1,
+      5,
+      5
+    ]
+  },
+  {
+    "id": 169,
+    "age": 39,
+    "income": 33515.85,
+    "expenses": 22611.02,
+    "planned_investment": 8204.23,
+    "horizon_years": 15,
+    "goal": "retirement",
+    "risk_responses": [
+      5,
+      2,
+      3,
+      4,
+      5,
+      3,
+      3,
+      2
+    ]
+  },
+  {
+    "id": 170,
+    "age": 27,
+    "income": 138464.57,
+    "expenses": 70331.98,
+    "planned_investment": 28472.54,
+    "horizon_years": 19,
+    "goal": "wealth_growth",
+    "risk_responses": [
+      4,
+      2,
+      5,
+      3,
+      4,
+      5,
+      3,
+      5
+    ]
+  },
+  {
+    "id": 171,
+    "age": 52,
+    "income": 95034.5,
+    "expenses": 49491.83,
+    "planned_investment": 12277.31,
+    "horizon_years": 8,
+    "goal": "wealth_growth",
+    "risk_responses": [
+      5,
+      5,
+      4,
+      5,
+      4,
+      1,
+      3,
+      2
+    ]
+  },
+  {
+    "id": 172,
+    "age": 37,
+    "income": 71832.4,
+    "expenses": 38000.26,
+    "planned_investment": 9775.78,
+    "horizon_years": 7,
+    "goal": "home_purchase",
+    "risk_responses": [
+      1,
+      1,
+      2,
+      5,
+      1,
+      5,
+      3,
+      4
+    ]
+  },
+  {
+    "id": 173,
+    "age": 25,
+    "income": 102719.3,
+    "expenses": 83087.74,
+    "planned_investment": 6829.41,
+    "horizon_years": 4,
+    "goal": "wealth_growth",
+    "risk_responses": [
+      2,
+      4,
+      3,
+      3,
+      2,
+      2,
+      5,
+      5
+    ]
+  },
+  {
+    "id": 174,
+    "age": 39,
+    "income": 151390.98,
+    "expenses": 96098.87,
+    "planned_investment": 34122.79,
+    "horizon_years": 16,
+    "goal": "home_purchase",
+    "risk_responses": [
+      2,
+      4,
+      1,
+      1,
+      4,
+      5,
+      5,
+      1
+    ]
+  },
+  {
+    "id": 175,
+    "age": 53,
+    "income": 83598.95,
+    "expenses": 74913.72,
+    "planned_investment": 1778.24,
+    "horizon_years": 9,
+    "goal": "retirement",
+    "risk_responses": [
+      4,
+      4,
+      4,
+      3,
+      3,
+      3,
+      3,
+      4
+    ]
+  },
+  {
+    "id": 176,
+    "age": 55,
+    "income": 108856.27,
+    "expenses": 61120.13,
+    "planned_investment": 15533.13,
+    "horizon_years": 16,
+    "goal": "education",
+    "risk_responses": [
+      4,
+      3,
+      2,
+      5,
+      3,
+      2,
+      4,
+      5
+    ]
+  },
+  {
+    "id": 177,
+    "age": 46,
+    "income": 113053.18,
+    "expenses": 45036.02,
+    "planned_investment": 50612.47,
+    "horizon_years": 11,
+    "goal": "wealth_growth",
+    "risk_responses": [
+      3,
+      2,
+      4,
+      1,
+      1,
+      1,
+      3,
+      5
+    ]
+  },
+  {
+    "id": 178,
+    "age": 53,
+    "income": 67971.03,
+    "expenses": 43844.35,
+    "planned_investment": 7689.0,
+    "horizon_years": 20,
+    "goal": "education",
+    "risk_responses": [
+      5,
+      5,
+      4,
+      4,
+      4,
+      3,
+      1,
+      5
+    ]
+  },
+  {
+    "id": 179,
+    "age": 44,
+    "income": 92490.4,
+    "expenses": 32899.65,
+    "planned_investment": 8806.82,
+    "horizon_years": 8,
+    "goal": "retirement",
+    "risk_responses": [
+      4,
+      3,
+      5,
+      4,
+      5,
+      5,
+      2,
+      2
+    ]
+  },
+  {
+    "id": 180,
+    "age": 48,
+    "income": 97874.09,
+    "expenses": 57950.26,
+    "planned_investment": 21448.0,
+    "horizon_years": 19,
+    "goal": "home_purchase",
+    "risk_responses": [
+      5,
+      1,
+      2,
+      3,
+      3,
+      3,
+      1,
+      3
+    ]
+  },
+  {
+    "id": 181,
+    "age": 54,
+    "income": 48093.73,
+    "expenses": 34183.06,
+    "planned_investment": 4262.85,
+    "horizon_years": 11,
+    "goal": "education",
+    "risk_responses": [
+      2,
+      5,
+      3,
+      5,
+      2,
+      5,
+      2,
+      4
+    ]
+  },
+  {
+    "id": 182,
+    "age": 33,
+    "income": 29627.19,
+    "expenses": 19575.37,
+    "planned_investment": 1755.39,
+    "horizon_years": 19,
+    "goal": "retirement",
+    "risk_responses": [
+      4,
+      1,
+      1,
+      3,
+      5,
+      1,
+      3,
+      4
+    ]
+  },
+  {
+    "id": 183,
+    "age": 28,
+    "income": 113792.07,
+    "expenses": 81641.09,
+    "planned_investment": 7640.85,
+    "horizon_years": 16,
+    "goal": "home_purchase",
+    "risk_responses": [
+      5,
+      5,
+      2,
+      5,
+      2,
+      4,
+      5,
+      1
+    ]
+  },
+  {
+    "id": 184,
+    "age": 31,
+    "income": 45083.33,
+    "expenses": 34611.5,
+    "planned_investment": 1828.93,
+    "horizon_years": 4,
+    "goal": "retirement",
+    "risk_responses": [
+      2,
+      5,
+      4,
+      4,
+      5,
+      4,
+      1,
+      1
+    ]
+  },
+  {
+    "id": 185,
+    "age": 42,
+    "income": 43028.34,
+    "expenses": 20698.55,
+    "planned_investment": 6538.46,
+    "horizon_years": 2,
+    "goal": "home_purchase",
+    "risk_responses": [
+      1,
+      5,
+      1,
+      3,
+      2,
+      4,
+      5,
+      4
+    ]
+  },
+  {
+    "id": 186,
+    "age": 23,
+    "income": 28748.62,
+    "expenses": 24143.02,
+    "planned_investment": 2339.02,
+    "horizon_years": 2,
+    "goal": "education",
+    "risk_responses": [
+      1,
+      5,
+      2,
+      2,
+      2,
+      1,
+      2,
+      5
+    ]
+  },
+  {
+    "id": 187,
+    "age": 33,
+    "income": 70366.96,
+    "expenses": 59416.26,
+    "planned_investment": 7349.33,
+    "horizon_years": 10,
+    "goal": "education",
+    "risk_responses": [
+      5,
+      3,
+      4,
+      1,
+      2,
+      4,
+      5,
+      2
+    ]
+  },
+  {
+    "id": 188,
+    "age": 48,
+    "income": 69465.26,
+    "expenses": 57754.76,
+    "planned_investment": 5141.76,
+    "horizon_years": 8,
+    "goal": "retirement",
+    "risk_responses": [
+      2,
+      2,
+      3,
+      4,
+      2,
+      1,
+      3,
+      4
+    ]
+  },
+  {
+    "id": 189,
+    "age": 57,
+    "income": 78069.81,
+    "expenses": 41709.42,
+    "planned_investment": 25817.31,
+    "horizon_years": 11,
+    "goal": "education",
+    "risk_responses": [
+      1,
+      1,
+      4,
+      3,
+      5,
+      2,
+      4,
+      2
+    ]
+  },
+  {
+    "id": 190,
+    "age": 51,
+    "income": 65373.9,
+    "expenses": 31408.63,
+    "planned_investment": 4226.67,
+    "horizon_years": 1,
+    "goal": "home_purchase",
+    "risk_responses": [
+      2,
+      2,
+      2,
+      1,
+      2,
+      3,
+      5,
+      2
+    ]
+  },
+  {
+    "id": 191,
+    "age": 57,
+    "income": 90929.39,
+    "expenses": 73650.38,
+    "planned_investment": 11463.89,
+    "horizon_years": 6,
+    "goal": "home_purchase",
+    "risk_responses": [
+      3,
+      2,
+      4,
+      4,
+      5,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "id": 192,
+    "age": 54,
+    "income": 52711.28,
+    "expenses": 43334.7,
+    "planned_investment": 5370.07,
+    "horizon_years": 9,
+    "goal": "education",
+    "risk_responses": [
+      5,
+      3,
+      5,
+      2,
+      4,
+      5,
+      5,
+      2
+    ]
+  },
+  {
+    "id": 193,
+    "age": 30,
+    "income": 159582.47,
+    "expenses": 66631.09,
+    "planned_investment": 42675.8,
+    "horizon_years": 18,
+    "goal": "home_purchase",
+    "risk_responses": [
+      4,
+      1,
+      5,
+      2,
+      3,
+      1,
+      4,
+      1
+    ]
+  },
+  {
+    "id": 194,
+    "age": 33,
+    "income": 144182.06,
+    "expenses": 68826.83,
+    "planned_investment": 17468.86,
+    "horizon_years": 4,
+    "goal": "retirement",
+    "risk_responses": [
+      5,
+      3,
+      5,
+      3,
+      2,
+      1,
+      3,
+      1
+    ]
+  },
+  {
+    "id": 195,
+    "age": 36,
+    "income": 66170.91,
+    "expenses": 52887.56,
+    "planned_investment": 5038.12,
+    "horizon_years": 12,
+    "goal": "education",
+    "risk_responses": [
+      4,
+      2,
+      3,
+      2,
+      1,
+      3,
+      3,
+      4
+    ]
+  },
+  {
+    "id": 196,
+    "age": 23,
+    "income": 125450.17,
+    "expenses": 92154.03,
+    "planned_investment": 9119.64,
+    "horizon_years": 13,
+    "goal": "home_purchase",
+    "risk_responses": [
+      1,
+      2,
+      3,
+      1,
+      3,
+      5,
+      2,
+      1
+    ]
+  },
+  {
+    "id": 197,
+    "age": 47,
+    "income": 26399.77,
+    "expenses": 11592.33,
+    "planned_investment": 3533.96,
+    "horizon_years": 10,
+    "goal": "wealth_growth",
+    "risk_responses": [
+      4,
+      1,
+      5,
+      3,
+      2,
+      5,
+      2,
+      5
+    ]
+  },
+  {
+    "id": 198,
+    "age": 53,
+    "income": 134661.46,
+    "expenses": 65996.24,
+    "planned_investment": 27771.83,
+    "horizon_years": 19,
+    "goal": "home_purchase",
+    "risk_responses": [
+      1,
+      1,
+      3,
+      1,
+      5,
+      5,
+      1,
+      2
+    ]
+  },
+  {
+    "id": 199,
+    "age": 29,
+    "income": 25940.93,
+    "expenses": 13624.26,
+    "planned_investment": 7931.74,
+    "horizon_years": 12,
+    "goal": "retirement",
+    "risk_responses": [
+      4,
+      4,
+      5,
+      2,
+      3,
+      5,
+      1,
+      3
+    ]
+  },
+  {
+    "id": 200,
+    "age": 49,
+    "income": 90809.14,
+    "expenses": 48779.47,
+    "planned_investment": 19003.81,
+    "horizon_years": 15,
+    "goal": "retirement",
+    "risk_responses": [
+      2,
+      4,
+      5,
+      2,
+      4,
+      2,
+      1,
+      5
+    ]
+  },
+  {
+    "id": 201,
+    "age": 38,
+    "income": 47924.92,
+    "expenses": 21088.54,
+    "planned_investment": 17352.46,
+    "horizon_years": 8,
+    "goal": "home_purchase",
+    "risk_responses": [
+      2,
+      1,
+      2,
+      3,
+      3,
+      4,
+      1,
+      2
+    ]
+  },
+  {
+    "id": 202,
+    "age": 41,
+    "income": 41950.47,
+    "expenses": 30515.93,
+    "planned_investment": 5037.03,
+    "horizon_years": 16,
+    "goal": "wealth_growth",
+    "risk_responses": [
+      2,
+      1,
+      5,
+      4,
+      2,
+      3,
+      3,
+      2
+    ]
+  },
+  {
+    "id": 203,
+    "age": 31,
+    "income": 114008.6,
+    "expenses": 55000.49,
+    "planned_investment": 31898.67,
+    "horizon_years": 4,
+    "goal": "education",
+    "risk_responses": [
+      2,
+      2,
+      5,
+      4,
+      4,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "id": 204,
+    "age": 22,
+    "income": 77676.93,
+    "expenses": 36006.21,
+    "planned_investment": 5926.92,
+    "horizon_years": 9,
+    "goal": "home_purchase",
+    "risk_responses": [
+      2,
+      1,
+      3,
+      4,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "id": 205,
+    "age": 51,
+    "income": 111069.71,
+    "expenses": 56559.82,
+    "planned_investment": 26724.68,
+    "horizon_years": 2,
+    "goal": "retirement",
+    "risk_responses": [
+      4,
+      4,
+      1,
+      3,
+      5,
+      3,
+      1,
+      4
+    ]
+  },
+  {
+    "id": 206,
+    "age": 49,
+    "income": 98134.94,
+    "expenses": 76656.33,
+    "planned_investment": 6986.33,
+    "horizon_years": 12,
+    "goal": "retirement",
+    "risk_responses": [
+      3,
+      5,
+      3,
+      2,
+      1,
+      2,
+      1,
+      1
+    ]
+  },
+  {
+    "id": 207,
+    "age": 47,
+    "income": 154332.58,
+    "expenses": 79168.52,
+    "planned_investment": 17288.81,
+    "horizon_years": 17,
+    "goal": "wealth_growth",
+    "risk_responses": [
+      1,
+      3,
+      5,
+      3,
+      4,
+      2,
+      3,
+      3
+    ]
+  },
+  {
+    "id": 208,
+    "age": 36,
+    "income": 78964.12,
+    "expenses": 51573.35,
+    "planned_investment": 9819.41,
+    "horizon_years": 9,
+    "goal": "wealth_growth",
+    "risk_responses": [
+      1,
+      1,
+      1,
+      5,
+      4,
+      1,
+      2,
+      4
+    ]
+  },
+  {
+    "id": 209,
+    "age": 49,
+    "income": 99924.82,
+    "expenses": 43628.71,
+    "planned_investment": 17434.93,
+    "horizon_years": 19,
+    "goal": "retirement",
+    "risk_responses": [
+      2,
+      2,
+      2,
+      2,
+      4,
+      4,
+      1,
+      1
+    ]
+  },
+  {
+    "id": 210,
+    "age": 50,
+    "income": 96704.22,
+    "expenses": 45455.96,
+    "planned_investment": 18487.43,
+    "horizon_years": 2,
+    "goal": "education",
+    "risk_responses": [
+      2,
+      3,
+      1,
+      1,
+      5,
+      4,
+      3,
+      1
+    ]
+  },
+  {
+    "id": 211,
+    "age": 50,
+    "income": 21407.67,
+    "expenses": 18748.93,
+    "planned_investment": 593.95,
+    "horizon_years": 6,
+    "goal": "education",
+    "risk_responses": [
+      3,
+      1,
+      4,
+      5,
+      3,
+      5,
+      2,
+      4
+    ]
+  },
+  {
+    "id": 212,
+    "age": 27,
+    "income": 106835.46,
+    "expenses": 67758.15,
+    "planned_investment": 15625.56,
+    "horizon_years": 18,
+    "goal": "wealth_growth",
+    "risk_responses": [
+      4,
+      5,
+      5,
+      1,
+      1,
+      3,
+      5,
+      3
+    ]
+  },
+  {
+    "id": 213,
+    "age": 58,
+    "income": 111380.07,
+    "expenses": 97351.26,
+    "planned_investment": 6123.75,
+    "horizon_years": 5,
+    "goal": "home_purchase",
+    "risk_responses": [
+      3,
+      5,
+      1,
+      2,
+      2,
+      4,
+      1,
+      2
+    ]
+  },
+  {
+    "id": 214,
+    "age": 45,
+    "income": 108780.36,
+    "expenses": 94502.7,
+    "planned_investment": 5025.75,
+    "horizon_years": 8,
+    "goal": "education",
+    "risk_responses": [
+      4,
+      3,
+      1,
+      2,
+      2,
+      2,
+      5,
+      1
+    ]
+  },
+  {
+    "id": 215,
+    "age": 36,
+    "income": 157947.78,
+    "expenses": 77302.69,
+    "planned_investment": 13425.42,
+    "horizon_years": 17,
+    "goal": "home_purchase",
+    "risk_responses": [
+      4,
+      2,
+      5,
+      4,
+      2,
+      5,
+      5,
+      1
+    ]
+  },
+  {
+    "id": 216,
+    "age": 54,
+    "income": 165480.5,
+    "expenses": 109510.7,
+    "planned_investment": 38959.23,
+    "horizon_years": 3,
+    "goal": "education",
+    "risk_responses": [
+      2,
+      5,
+      5,
+      5,
+      1,
+      5,
+      1,
+      4
+    ]
+  },
+  {
+    "id": 217,
+    "age": 47,
+    "income": 107087.96,
+    "expenses": 94492.1,
+    "planned_investment": 2949.34,
+    "horizon_years": 16,
+    "goal": "retirement",
+    "risk_responses": [
+      2,
+      3,
+      5,
+      1,
+      4,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "id": 218,
+    "age": 24,
+    "income": 22427.38,
+    "expenses": 15180.4,
+    "planned_investment": 1805.9,
+    "horizon_years": 10,
+    "goal": "retirement",
+    "risk_responses": [
+      2,
+      4,
+      1,
+      5,
+      2,
+      5,
+      1,
+      3
+    ]
+  },
+  {
+    "id": 219,
+    "age": 32,
+    "income": 78717.18,
+    "expenses": 63982.17,
+    "planned_investment": 9767.5,
+    "horizon_years": 1,
+    "goal": "home_purchase",
+    "risk_responses": [
+      1,
+      2,
+      3,
+      5,
+      5,
+      3,
+      4,
+      1
+    ]
+  },
+  {
+    "id": 220,
+    "age": 44,
+    "income": 35943.25,
+    "expenses": 23429.9,
+    "planned_investment": 8285.27,
+    "horizon_years": 4,
+    "goal": "retirement",
+    "risk_responses": [
+      2,
+      3,
+      3,
+      2,
+      4,
+      1,
+      5,
+      4
+    ]
+  },
+  {
+    "id": 221,
+    "age": 29,
+    "income": 146588.45,
+    "expenses": 90654.15,
+    "planned_investment": 8481.23,
+    "horizon_years": 9,
+    "goal": "wealth_growth",
+    "risk_responses": [
+      2,
+      5,
+      3,
+      4,
+      2,
+      5,
+      3,
+      5
+    ]
+  },
+  {
+    "id": 222,
+    "age": 39,
+    "income": 171802.64,
+    "expenses": 61434.97,
+    "planned_investment": 37487.22,
+    "horizon_years": 5,
+    "goal": "education",
+    "risk_responses": [
+      5,
+      4,
+      1,
+      1,
+      1,
+      2,
+      5,
+      5
+    ]
+  },
+  {
+    "id": 223,
+    "age": 47,
+    "income": 154873.4,
+    "expenses": 136620.2,
+    "planned_investment": 10678.91,
+    "horizon_years": 15,
+    "goal": "education",
+    "risk_responses": [
+      2,
+      5,
+      5,
+      1,
+      3,
+      3,
+      5,
+      2
+    ]
+  },
+  {
+    "id": 224,
+    "age": 41,
+    "income": 163037.52,
+    "expenses": 109899.16,
+    "planned_investment": 6937.7,
+    "horizon_years": 6,
+    "goal": "home_purchase",
+    "risk_responses": [
+      4,
+      3,
+      5,
+      4,
+      4,
+      3,
+      3,
+      1
+    ]
+  },
+  {
+    "id": 225,
+    "age": 43,
+    "income": 112665.86,
+    "expenses": 60116.1,
+    "planned_investment": 6009.51,
+    "horizon_years": 15,
+    "goal": "retirement",
+    "risk_responses": [
+      2,
+      2,
+      3,
+      4,
+      3,
+      1,
+      5,
+      3
+    ]
+  },
+  {
+    "id": 226,
+    "age": 44,
+    "income": 111033.73,
+    "expenses": 71115.07,
+    "planned_investment": 30732.28,
+    "horizon_years": 2,
+    "goal": "retirement",
+    "risk_responses": [
+      2,
+      4,
+      5,
+      1,
+      3,
+      3,
+      2,
+      2
+    ]
+  },
+  {
+    "id": 227,
+    "age": 26,
+    "income": 68639.34,
+    "expenses": 52840.81,
+    "planned_investment": 9758.32,
+    "horizon_years": 17,
+    "goal": "wealth_growth",
+    "risk_responses": [
+      3,
+      5,
+      4,
+      3,
+      1,
+      3,
+      3,
+      4
+    ]
+  },
+  {
+    "id": 228,
+    "age": 54,
+    "income": 78765.67,
+    "expenses": 38113.3,
+    "planned_investment": 10747.28,
+    "horizon_years": 12,
+    "goal": "wealth_growth",
+    "risk_responses": [
+      2,
+      2,
+      1,
+      4,
+      4,
+      4,
+      4,
+      5
+    ]
+  },
+  {
+    "id": 229,
+    "age": 41,
+    "income": 168716.78,
+    "expenses": 113501.87,
+    "planned_investment": 11080.0,
+    "horizon_years": 10,
+    "goal": "home_purchase",
+    "risk_responses": [
+      5,
+      5,
+      3,
+      1,
+      2,
+      5,
+      1,
+      5
+    ]
+  },
+  {
+    "id": 230,
+    "age": 33,
+    "income": 68677.96,
+    "expenses": 37389.61,
+    "planned_investment": 13376.1,
+    "horizon_years": 14,
+    "goal": "retirement",
+    "risk_responses": [
+      4,
+      3,
+      2,
+      3,
+      3,
+      5,
+      1,
+      2
+    ]
+  },
+  {
+    "id": 231,
+    "age": 39,
+    "income": 57904.24,
+    "expenses": 20905.52,
+    "planned_investment": 4935.11,
+    "horizon_years": 15,
+    "goal": "wealth_growth",
+    "risk_responses": [
+      5,
+      3,
+      5,
+      1,
+      2,
+      2,
+      1,
+      2
+    ]
+  },
+  {
+    "id": 232,
+    "age": 25,
+    "income": 32689.34,
+    "expenses": 25994.85,
+    "planned_investment": 4772.25,
+    "horizon_years": 11,
+    "goal": "wealth_growth",
+    "risk_responses": [
+      1,
+      2,
+      3,
+      5,
+      1,
+      3,
+      1,
+      2
+    ]
+  },
+  {
+    "id": 233,
+    "age": 42,
+    "income": 72280.02,
+    "expenses": 55086.66,
+    "planned_investment": 9529.48,
+    "horizon_years": 13,
+    "goal": "home_purchase",
+    "risk_responses": [
+      2,
+      1,
+      4,
+      1,
+      1,
+      5,
+      3,
+      4
+    ]
+  },
+  {
+    "id": 234,
+    "age": 47,
+    "income": 61122.78,
+    "expenses": 36970.6,
+    "planned_investment": 2645.15,
+    "horizon_years": 11,
+    "goal": "home_purchase",
+    "risk_responses": [
+      1,
+      4,
+      5,
+      3,
+      2,
+      1,
+      1,
+      2
+    ]
+  },
+  {
+    "id": 235,
+    "age": 35,
+    "income": 42825.29,
+    "expenses": 33059.13,
+    "planned_investment": 1590.98,
+    "horizon_years": 12,
+    "goal": "education",
+    "risk_responses": [
+      3,
+      5,
+      5,
+      5,
+      2,
+      5,
+      5,
+      3
+    ]
+  },
+  {
+    "id": 236,
+    "age": 36,
+    "income": 138573.29,
+    "expenses": 68151.31,
+    "planned_investment": 42112.33,
+    "horizon_years": 2,
+    "goal": "home_purchase",
+    "risk_responses": [
+      5,
+      4,
+      5,
+      3,
+      3,
+      5,
+      5,
+      3
+    ]
+  },
+  {
+    "id": 237,
+    "age": 30,
+    "income": 60466.47,
+    "expenses": 39724.82,
+    "planned_investment": 3523.04,
+    "horizon_years": 12,
+    "goal": "wealth_growth",
+    "risk_responses": [
+      2,
+      4,
+      1,
+      1,
+      5,
+      2,
+      1,
+      1
+    ]
+  },
+  {
+    "id": 238,
+    "age": 56,
+    "income": 100296.15,
+    "expenses": 65732.72,
+    "planned_investment": 7855.35,
+    "horizon_years": 20,
+    "goal": "home_purchase",
+    "risk_responses": [
+      2,
+      2,
+      2,
+      5,
+      1,
+      3,
+      2,
+      4
+    ]
+  },
+  {
+    "id": 239,
+    "age": 53,
+    "income": 54101.65,
+    "expenses": 46083.48,
+    "planned_investment": 5859.04,
+    "horizon_years": 13,
+    "goal": "education",
+    "risk_responses": [
+      2,
+      3,
+      1,
+      1,
+      1,
+      1,
+      4,
+      3
+    ]
+  },
+  {
+    "id": 240,
+    "age": 25,
+    "income": 56498.68,
+    "expenses": 31458.21,
+    "planned_investment": 18402.6,
+    "horizon_years": 13,
+    "goal": "wealth_growth",
+    "risk_responses": [
+      1,
+      3,
+      1,
+      3,
+      4,
+      2,
+      2,
+      3
+    ]
+  }
+]

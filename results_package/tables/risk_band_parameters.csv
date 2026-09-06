@@ -1,0 +1,4 @@
+Parameter,Original,Calibrated
+Lower cut,44% of max score,57.5% of max score
+Upper cut,72% of max score,62.5% of max score
+Methodology,Illustrative (unstated justification),"Beta(2.5,2.5)-sampled reference population (n=20000, seed=42), tertile split at 33%/67%. See app/risk_calibration.py for the full rationale."

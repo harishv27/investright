@@ -1,0 +1,12 @@
+{
+  "n_questions_reference": 8,
+  "lower_pct": 0.575,
+  "upper_pct": 0.625,
+  "methodology": "Beta(2.5,2.5)-sampled reference population (n=20000, seed=42), tertile split at 33%/67%. See app/risk_calibration.py for the full rationale.",
+  "n_samples": 20000,
+  "seed": 42,
+  "target_split": [
+    0.3333333333333333,
+    0.6666666666666666
+  ]
+}

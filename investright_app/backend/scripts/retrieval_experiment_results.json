@@ -1,0 +1,27 @@
+{
+  "precision_at_k": {
+    "lexical_rag": 0.99,
+    "most_recent_k": 0.2,
+    "random_k": 0.19
+  },
+  "context_size": {
+    "no_memory_chars": 0,
+    "full_history_chars": 11123,
+    "lexical_rag_chars": 456,
+    "total_conversations_in_history": 100,
+    "conversations_attached_full_history": 100,
+    "conversations_attached_lexical_rag": 4
+  },
+  "latency": {
+    "n_conversations_in_history": 500,
+    "no_memory_ms": 0.0,
+    "full_history_ms": 0.0005,
+    "lexical_rag_ms": 1.0134
+  },
+  "staleness_exposure": {
+    "stale_items_in_full_history": 10,
+    "stale_items_in_lexical_rag_top_k": 0,
+    "stale_items_in_most_recent_k": 0,
+    "note": "In every mode, authoritative profile facts are attached as a separate, explicitly-labeled block ahead of any conversational memory (see build_profile_context in retrieval.py), so even when stale conversational items are retrieved, they are distinguishable from -- and, per the agent's system prompt, subordinate to -- current structured facts. full_history is the condition most exposed to stale content by volume."
+  }
+}

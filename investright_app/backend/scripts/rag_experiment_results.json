@@ -1,0 +1,23 @@
+{
+  "no_memory": {
+    "mean_unsupported_number_rate": 0.5446,
+    "faithfulness_rate": 0.75,
+    "mean_latency_ms": 29789.55,
+    "mean_total_tokens": 6903,
+    "n_questions": 4
+  },
+  "full_history": {
+    "mean_unsupported_number_rate": 0.3007,
+    "faithfulness_rate": 0.75,
+    "mean_latency_ms": 175674.86,
+    "mean_total_tokens": 24882.8,
+    "n_questions": 4
+  },
+  "lexical_rag": {
+    "mean_unsupported_number_rate": 0.3771,
+    "faithfulness_rate": 0.75,
+    "mean_latency_ms": 37773.36,
+    "mean_total_tokens": 8771.5,
+    "n_questions": 4
+  }
+}

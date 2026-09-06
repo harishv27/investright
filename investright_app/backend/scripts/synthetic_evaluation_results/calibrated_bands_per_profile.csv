@@ -1,0 +1,241 @@
+id,income,expenses,monthly_savings,savings_rate_pct,expense_ratio_pct,risk_score,max_score,risk_category,horizon_years,recommended_category
+1,171658.46,97356.6,74301.86,43.3,56.7,22,40,Conservative,18,Conservative Hybrid / Debt Funds
+2,31176.87,12467.38,18709.49,60.0,40.0,25,40,Moderate,19,Balanced Advantage / Index Funds
+3,109066.38,46161.93,62904.45,57.7,42.3,28,40,Aggressive,18,Multi-Cap & Growth Equity Funds
+4,35588.89,26394.89,9194.0,25.8,74.2,32,40,Aggressive,20,Multi-Cap & Growth Equity Funds
+5,59748.25,26819.3,32928.95,55.1,44.9,26,40,Aggressive,3,Large-Cap Equity Funds
+6,86899.65,66602.28,20297.37,23.4,76.6,26,40,Aggressive,16,Multi-Cap & Growth Equity Funds
+7,112783.23,67772.9,45010.33,39.9,60.1,24,40,Moderate,9,Balanced Advantage / Index Funds
+8,170503.77,93010.7,77493.07,45.4,54.6,22,40,Conservative,16,Conservative Hybrid / Debt Funds
+9,91869.98,59916.86,31953.12,34.8,65.2,20,40,Conservative,14,Conservative Hybrid / Debt Funds
+10,125362.67,44708.68,80653.99,64.3,35.7,28,40,Aggressive,6,Multi-Cap & Growth Equity Funds
+11,172495.67,125882.42,46613.25,27.0,73.0,30,40,Aggressive,20,Multi-Cap & Growth Equity Funds
+12,29959.65,11595.62,18364.03,61.3,38.7,23,40,Conservative,6,Conservative Hybrid / Debt Funds
+13,171831.8,118143.9,53687.9,31.2,68.8,22,40,Conservative,7,Conservative Hybrid / Debt Funds
+14,178896.44,108463.87,70432.57,39.4,60.6,21,40,Conservative,3,Liquid Funds & Fixed Deposits
+15,77880.39,56816.64,21063.75,27.0,73.0,24,40,Moderate,17,Balanced Advantage / Index Funds
+16,144648.78,76854.18,67794.6,46.9,53.1,22,40,Conservative,7,Conservative Hybrid / Debt Funds
+17,95558.41,43622.87,51935.54,54.3,45.7,18,40,Conservative,12,Conservative Hybrid / Debt Funds
+18,52699.74,36533.38,16166.36,30.7,69.3,21,40,Conservative,1,Liquid Funds & Fixed Deposits
+19,33879.98,29488.83,4391.15,13.0,87.0,19,40,Conservative,15,Conservative Hybrid / Debt Funds
+20,117851.73,79871.5,37980.23,32.2,67.8,22,40,Conservative,12,Conservative Hybrid / Debt Funds
+21,177847.91,81301.92,96545.99,54.3,45.7,28,40,Aggressive,1,Large-Cap Equity Funds
+22,153471.2,58855.82,94615.38,61.7,38.3,29,40,Aggressive,15,Multi-Cap & Growth Equity Funds
+23,117368.74,91174.55,26194.19,22.3,77.7,30,40,Aggressive,5,Multi-Cap & Growth Equity Funds
+24,145483.6,59409.71,86073.89,59.2,40.8,21,40,Conservative,8,Conservative Hybrid / Debt Funds
+25,72098.18,63831.99,8266.19,11.5,88.5,33,40,Aggressive,7,Multi-Cap & Growth Equity Funds
+26,162840.79,75138.6,87702.19,53.9,46.1,21,40,Conservative,14,Conservative Hybrid / Debt Funds
+27,145429.76,122650.3,22779.46,15.7,84.3,22,40,Conservative,12,Conservative Hybrid / Debt Funds
+28,45834.57,26920.34,18914.23,41.3,58.7,21,40,Conservative,11,Conservative Hybrid / Debt Funds
+29,90473.3,32565.42,57907.88,64.0,36.0,17,40,Conservative,20,Conservative Hybrid / Debt Funds
+30,164943.79,74200.5,90743.29,55.0,45.0,29,40,Aggressive,14,Multi-Cap & Growth Equity Funds
+31,29204.24,21275.67,7928.57,27.1,72.9,17,40,Conservative,3,Liquid Funds & Fixed Deposits
+32,92603.76,49685.02,42918.74,46.3,53.7,17,40,Conservative,9,Conservative Hybrid / Debt Funds
+33,169159.5,117695.96,51463.54,30.4,69.6,22,40,Conservative,7,Conservative Hybrid / Debt Funds
+34,22949.42,14414.76,8534.66,37.2,62.8,29,40,Aggressive,17,Multi-Cap & Growth Equity Funds
+35,130038.68,115778.94,14259.74,11.0,89.0,17,40,Conservative,5,Conservative Hybrid / Debt Funds
+36,33517.58,27239.67,6277.91,18.7,81.3,20,40,Conservative,10,Conservative Hybrid / Debt Funds
+37,78262.62,41550.36,36712.26,46.9,53.1,19,40,Conservative,11,Conservative Hybrid / Debt Funds
+38,95942.98,60110.22,35832.76,37.3,62.7,21,40,Conservative,17,Conservative Hybrid / Debt Funds
+39,67943.37,47310.22,20633.15,30.4,69.6,28,40,Aggressive,17,Multi-Cap & Growth Equity Funds
+40,151977.14,112957.93,39019.21,25.7,74.3,25,40,Moderate,14,Balanced Advantage / Index Funds
+41,41294.91,22645.68,18649.23,45.2,54.8,21,40,Conservative,15,Conservative Hybrid / Debt Funds
+42,163657.21,65555.85,98101.36,59.9,40.1,22,40,Conservative,16,Conservative Hybrid / Debt Funds
+43,96641.63,70165.02,26476.61,27.4,72.6,27,40,Aggressive,20,Multi-Cap & Growth Equity Funds
+44,21995.07,8432.11,13562.96,61.7,38.3,28,40,Aggressive,4,Large-Cap Equity Funds
+45,51880.0,46067.84,5812.16,11.2,88.8,25,40,Moderate,1,Balanced Hybrid Funds
+46,113035.58,48374.41,64661.17,57.2,42.8,27,40,Aggressive,12,Multi-Cap & Growth Equity Funds
+47,23973.5,8438.07,15535.43,64.8,35.2,23,40,Conservative,15,Conservative Hybrid / Debt Funds
+48,71927.61,38556.79,33370.82,46.4,53.6,24,40,Moderate,7,Balanced Advantage / Index Funds
+49,168066.48,128673.55,39392.93,23.4,76.6,23,40,Conservative,9,Conservative Hybrid / Debt Funds
+50,143709.38,112356.09,31353.29,21.8,78.2,27,40,Aggressive,1,Large-Cap Equity Funds
+51,123118.51,62472.13,60646.38,49.3,50.7,25,40,Moderate,18,Balanced Advantage / Index Funds
+52,124959.25,64411.49,60547.76,48.5,51.5,23,40,Conservative,13,Conservative Hybrid / Debt Funds
+53,165001.5,148181.47,16820.03,10.2,89.8,19,40,Conservative,5,Conservative Hybrid / Debt Funds
+54,61337.21,40684.34,20652.87,33.7,66.3,26,40,Aggressive,14,Multi-Cap & Growth Equity Funds
+55,111884.92,61321.88,50563.04,45.2,54.8,25,40,Moderate,17,Balanced Advantage / Index Funds
+56,40359.52,23564.31,16795.21,41.6,58.4,22,40,Conservative,16,Conservative Hybrid / Debt Funds
+57,44700.54,28487.7,16212.84,36.3,63.7,20,40,Conservative,15,Conservative Hybrid / Debt Funds
+58,120235.64,77015.64,43220.0,35.9,64.1,25,40,Moderate,4,Balanced Hybrid Funds
+59,21673.86,11180.17,10493.69,48.4,51.6,26,40,Aggressive,11,Multi-Cap & Growth Equity Funds
+60,23485.98,14656.91,8829.07,37.6,62.4,22,40,Conservative,14,Conservative Hybrid / Debt Funds
+61,77971.18,44287.4,33683.78,43.2,56.8,21,40,Conservative,10,Conservative Hybrid / Debt Funds
+62,141675.32,72567.95,69107.37,48.8,51.2,23,40,Conservative,16,Conservative Hybrid / Debt Funds
+63,23780.6,16120.15,7660.45,32.2,67.8,20,40,Conservative,2,Liquid Funds & Fixed Deposits
+64,124394.92,79443.41,44951.51,36.1,63.9,18,40,Conservative,10,Conservative Hybrid / Debt Funds
+65,76234.7,66746.01,9488.69,12.4,87.6,21,40,Conservative,7,Conservative Hybrid / Debt Funds
+66,167121.03,76234.66,90886.37,54.4,45.6,21,40,Conservative,16,Conservative Hybrid / Debt Funds
+67,61122.55,46514.74,14607.81,23.9,76.1,24,40,Moderate,11,Balanced Advantage / Index Funds
+68,135451.53,91776.88,43674.65,32.2,67.8,26,40,Aggressive,3,Large-Cap Equity Funds
+69,168495.91,75927.05,92568.86,54.9,45.1,26,40,Aggressive,10,Multi-Cap & Growth Equity Funds
+70,51569.89,39403.89,12166.0,23.6,76.4,25,40,Moderate,3,Balanced Hybrid Funds
+71,119936.25,55720.89,64215.36,53.5,46.5,25,40,Moderate,15,Balanced Advantage / Index Funds
+72,67005.14,44343.09,22662.05,33.8,66.2,22,40,Conservative,9,Conservative Hybrid / Debt Funds
+73,72214.07,41005.91,31208.16,43.2,56.8,18,40,Conservative,17,Conservative Hybrid / Debt Funds
+74,26457.9,13533.81,12924.09,48.8,51.2,24,40,Moderate,7,Balanced Advantage / Index Funds
+75,121993.17,90316.22,31676.95,26.0,74.0,19,40,Conservative,2,Liquid Funds & Fixed Deposits
+76,151013.3,86824.67,64188.63,42.5,57.5,22,40,Conservative,20,Conservative Hybrid / Debt Funds
+77,147335.02,105376.15,41958.87,28.5,71.5,24,40,Moderate,18,Balanced Advantage / Index Funds
+78,139254.01,116420.83,22833.18,16.4,83.6,23,40,Conservative,1,Liquid Funds & Fixed Deposits
+79,151258.97,86734.88,64524.09,42.7,57.3,21,40,Conservative,15,Conservative Hybrid / Debt Funds
+80,137959.83,61313.09,76646.74,55.6,44.4,18,40,Conservative,6,Conservative Hybrid / Debt Funds
+81,70324.16,48116.11,22208.05,31.6,68.4,29,40,Aggressive,3,Large-Cap Equity Funds
+82,26674.01,23105.08,3568.93,13.4,86.6,17,40,Conservative,12,Conservative Hybrid / Debt Funds
+83,115923.16,75643.17,40279.99,34.7,65.3,30,40,Aggressive,10,Multi-Cap & Growth Equity Funds
+84,48602.23,17104.56,31497.67,64.8,35.2,25,40,Moderate,15,Balanced Advantage / Index Funds
+85,77372.01,42626.78,34745.23,44.9,55.1,19,40,Conservative,17,Conservative Hybrid / Debt Funds
+86,124439.31,97228.6,27210.71,21.9,78.1,19,40,Conservative,3,Liquid Funds & Fixed Deposits
+87,45402.79,38278.89,7123.9,15.7,84.3,32,40,Aggressive,15,Multi-Cap & Growth Equity Funds
+88,71052.4,26307.73,44744.67,63.0,37.0,22,40,Conservative,6,Conservative Hybrid / Debt Funds
+89,108828.82,72809.1,36019.72,33.1,66.9,29,40,Aggressive,4,Large-Cap Equity Funds
+90,72932.62,28791.03,44141.59,60.5,39.5,24,40,Moderate,20,Balanced Advantage / Index Funds
+91,43898.36,30238.45,13659.91,31.1,68.9,17,40,Conservative,17,Conservative Hybrid / Debt Funds
+92,110739.39,57258.5,53480.89,48.3,51.7,29,40,Aggressive,18,Multi-Cap & Growth Equity Funds
+93,45379.75,16235.13,29144.62,64.2,35.8,16,40,Conservative,5,Conservative Hybrid / Debt Funds
+94,162828.25,110250.74,52577.51,32.3,67.7,17,40,Conservative,20,Conservative Hybrid / Debt Funds
+95,58027.01,22172.62,35854.39,61.8,38.2,32,40,Aggressive,1,Large-Cap Equity Funds
+96,101372.16,39035.58,62336.58,61.5,38.5,22,40,Conservative,16,Conservative Hybrid / Debt Funds
+97,57167.47,21229.12,35938.35,62.9,37.1,26,40,Aggressive,9,Multi-Cap & Growth Equity Funds
+98,22436.43,11065.71,11370.72,50.7,49.3,28,40,Aggressive,7,Multi-Cap & Growth Equity Funds
+99,95542.48,61322.99,34219.49,35.8,64.2,27,40,Aggressive,1,Large-Cap Equity Funds
+100,165726.36,71183.98,94542.38,57.0,43.0,12,40,Conservative,4,Liquid Funds & Fixed Deposits
+101,30522.44,20595.32,9927.12,32.5,67.5,14,40,Conservative,18,Conservative Hybrid / Debt Funds
+102,152009.64,106003.18,46006.46,30.3,69.7,20,40,Conservative,4,Liquid Funds & Fixed Deposits
+103,61072.36,30867.58,30204.78,49.5,50.5,28,40,Aggressive,12,Multi-Cap & Growth Equity Funds
+104,102979.58,41610.42,61369.16,59.6,40.4,23,40,Conservative,2,Liquid Funds & Fixed Deposits
+105,141948.96,126026.0,15922.96,11.2,88.8,31,40,Aggressive,16,Multi-Cap & Growth Equity Funds
+106,65396.76,30611.76,34785.0,53.2,46.8,19,40,Conservative,16,Conservative Hybrid / Debt Funds
+107,168560.73,141677.48,26883.25,15.9,84.1,27,40,Aggressive,14,Multi-Cap & Growth Equity Funds
+108,177185.58,123482.27,53703.31,30.3,69.7,30,40,Aggressive,5,Multi-Cap & Growth Equity Funds
+109,94105.14,68601.12,25504.02,27.1,72.9,27,40,Aggressive,8,Multi-Cap & Growth Equity Funds
+110,135733.78,120276.69,15457.09,11.4,88.6,16,40,Conservative,20,Conservative Hybrid / Debt Funds
+111,81477.26,72605.04,8872.22,10.9,89.1,20,40,Conservative,10,Conservative Hybrid / Debt Funds
+112,22018.77,18052.75,3966.02,18.0,82.0,22,40,Conservative,8,Conservative Hybrid / Debt Funds
+113,132185.91,88972.32,43213.59,32.7,67.3,22,40,Conservative,8,Conservative Hybrid / Debt Funds
+114,145180.49,107757.71,37422.78,25.8,74.2,28,40,Aggressive,9,Multi-Cap & Growth Equity Funds
+115,82193.35,50911.55,31281.8,38.1,61.9,25,40,Moderate,2,Balanced Hybrid Funds
+116,106565.65,79339.5,27226.15,25.5,74.5,27,40,Aggressive,12,Multi-Cap & Growth Equity Funds
+117,122011.01,59645.29,62365.72,51.1,48.9,23,40,Conservative,2,Liquid Funds & Fixed Deposits
+118,138635.3,120191.57,18443.73,13.3,86.7,22,40,Conservative,8,Conservative Hybrid / Debt Funds
+119,150342.29,64714.07,85628.22,57.0,43.0,26,40,Aggressive,14,Multi-Cap & Growth Equity Funds
+120,177262.57,128222.92,49039.65,27.7,72.3,26,40,Aggressive,9,Multi-Cap & Growth Equity Funds
+121,44440.51,22964.31,21476.2,48.3,51.7,20,40,Conservative,3,Liquid Funds & Fixed Deposits
+122,60004.25,24351.62,35652.63,59.4,40.6,27,40,Aggressive,8,Multi-Cap & Growth Equity Funds
+123,126953.27,106850.46,20102.81,15.8,84.2,23,40,Conservative,10,Conservative Hybrid / Debt Funds
+124,87046.1,70061.64,16984.46,19.5,80.5,27,40,Aggressive,18,Multi-Cap & Growth Equity Funds
+125,45657.19,24032.86,21624.33,47.4,52.6,22,40,Conservative,16,Conservative Hybrid / Debt Funds
+126,117548.05,85272.11,32275.94,27.5,72.5,24,40,Moderate,11,Balanced Advantage / Index Funds
+127,35114.45,25017.74,10096.71,28.8,71.2,26,40,Aggressive,17,Multi-Cap & Growth Equity Funds
+128,76828.56,47752.92,29075.64,37.8,62.2,20,40,Conservative,9,Conservative Hybrid / Debt Funds
+129,145474.49,54120.6,91353.89,62.8,37.2,21,40,Conservative,13,Conservative Hybrid / Debt Funds
+130,146244.32,124366.49,21877.83,15.0,85.0,18,40,Conservative,20,Conservative Hybrid / Debt Funds
+131,87451.43,35446.96,52004.47,59.5,40.5,23,40,Conservative,1,Liquid Funds & Fixed Deposits
+132,23262.73,15387.9,7874.83,33.9,66.1,29,40,Aggressive,2,Large-Cap Equity Funds
+133,22260.87,12531.28,9729.59,43.7,56.3,20,40,Conservative,5,Conservative Hybrid / Debt Funds
+134,20765.32,15077.05,5688.27,27.4,72.6,22,40,Conservative,3,Liquid Funds & Fixed Deposits
+135,167648.51,92412.97,75235.54,44.9,55.1,22,40,Conservative,5,Conservative Hybrid / Debt Funds
+136,22356.73,15825.96,6530.77,29.2,70.8,26,40,Aggressive,3,Large-Cap Equity Funds
+137,171801.59,128897.85,42903.74,25.0,75.0,25,40,Moderate,6,Balanced Advantage / Index Funds
+138,73421.69,37000.78,36420.91,49.6,50.4,27,40,Aggressive,20,Multi-Cap & Growth Equity Funds
+139,81977.08,45653.85,36323.23,44.3,55.7,24,40,Moderate,8,Balanced Advantage / Index Funds
+140,66163.43,28276.16,37887.27,57.3,42.7,31,40,Aggressive,19,Multi-Cap & Growth Equity Funds
+141,147582.17,67922.75,79659.42,54.0,46.0,25,40,Moderate,8,Balanced Advantage / Index Funds
+142,93554.79,37256.84,56297.95,60.2,39.8,34,40,Aggressive,3,Large-Cap Equity Funds
+143,50264.23,22909.06,27355.17,54.4,45.6,27,40,Aggressive,10,Multi-Cap & Growth Equity Funds
+144,79846.47,32606.51,47239.96,59.2,40.8,26,40,Aggressive,3,Large-Cap Equity Funds
+145,25372.65,22701.48,2671.17,10.5,89.5,27,40,Aggressive,16,Multi-Cap & Growth Equity Funds
+146,154999.47,83136.1,71863.37,46.4,53.6,20,40,Conservative,13,Conservative Hybrid / Debt Funds
+147,167544.75,123732.97,43811.78,26.1,73.9,23,40,Conservative,11,Conservative Hybrid / Debt Funds
+148,47539.84,41261.85,6277.99,13.2,86.8,20,40,Conservative,2,Liquid Funds & Fixed Deposits
+149,170300.89,123006.47,47294.42,27.8,72.2,22,40,Conservative,19,Conservative Hybrid / Debt Funds
+150,80743.37,47861.57,32881.8,40.7,59.3,18,40,Conservative,1,Liquid Funds & Fixed Deposits
+151,173272.63,148887.44,24385.19,14.1,85.9,22,40,Conservative,1,Liquid Funds & Fixed Deposits
+152,55464.14,21142.9,34321.24,61.9,38.1,22,40,Conservative,18,Conservative Hybrid / Debt Funds
+153,111358.46,57138.37,54220.09,48.7,51.3,21,40,Conservative,9,Conservative Hybrid / Debt Funds
+154,109590.8,88703.37,20887.43,19.1,80.9,23,40,Conservative,7,Conservative Hybrid / Debt Funds
+155,29197.18,21885.04,7312.14,25.0,75.0,28,40,Aggressive,1,Large-Cap Equity Funds
+156,77615.87,28896.49,48719.38,62.8,37.2,21,40,Conservative,9,Conservative Hybrid / Debt Funds
+157,162292.05,122038.29,40253.76,24.8,75.2,21,40,Conservative,6,Conservative Hybrid / Debt Funds
+158,85299.68,63711.25,21588.43,25.3,74.7,22,40,Conservative,12,Conservative Hybrid / Debt Funds
+159,49768.35,40182.59,9585.76,19.3,80.7,29,40,Aggressive,6,Multi-Cap & Growth Equity Funds
+160,77074.92,37350.45,39724.47,51.5,48.5,24,40,Moderate,11,Balanced Advantage / Index Funds
+161,148720.34,63043.21,85677.13,57.6,42.4,22,40,Conservative,3,Liquid Funds & Fixed Deposits
+162,35435.42,26024.91,9410.51,26.6,73.4,19,40,Conservative,1,Liquid Funds & Fixed Deposits
+163,39687.87,24665.04,15022.83,37.9,62.1,22,40,Conservative,9,Conservative Hybrid / Debt Funds
+164,127004.1,76727.0,50277.1,39.6,60.4,28,40,Aggressive,1,Large-Cap Equity Funds
+165,84113.09,68233.6,15879.49,18.9,81.1,25,40,Moderate,19,Balanced Advantage / Index Funds
+166,126098.94,44935.98,81162.96,64.4,35.6,23,40,Conservative,6,Conservative Hybrid / Debt Funds
+167,144252.73,124823.92,19428.81,13.5,86.5,28,40,Aggressive,2,Large-Cap Equity Funds
+168,39471.94,14111.89,25360.05,64.2,35.8,21,40,Conservative,2,Liquid Funds & Fixed Deposits
+169,33515.85,22611.02,10904.83,32.5,67.5,27,40,Aggressive,15,Multi-Cap & Growth Equity Funds
+170,138464.57,70331.98,68132.59,49.2,50.8,31,40,Aggressive,19,Multi-Cap & Growth Equity Funds
+171,95034.5,49491.83,45542.67,47.9,52.1,29,40,Aggressive,8,Multi-Cap & Growth Equity Funds
+172,71832.4,38000.26,33832.14,47.1,52.9,22,40,Conservative,7,Conservative Hybrid / Debt Funds
+173,102719.3,83087.74,19631.56,19.1,80.9,26,40,Aggressive,4,Large-Cap Equity Funds
+174,151390.98,96098.87,55292.11,36.5,63.5,23,40,Conservative,16,Conservative Hybrid / Debt Funds
+175,83598.95,74913.72,8685.23,10.4,89.6,28,40,Aggressive,9,Multi-Cap & Growth Equity Funds
+176,108856.27,61120.13,47736.14,43.9,56.1,28,40,Aggressive,16,Multi-Cap & Growth Equity Funds
+177,113053.18,45036.02,68017.16,60.2,39.8,20,40,Conservative,11,Conservative Hybrid / Debt Funds
+178,67971.03,43844.35,24126.68,35.5,64.5,31,40,Aggressive,20,Multi-Cap & Growth Equity Funds
+179,92490.4,32899.65,59590.75,64.4,35.6,30,40,Aggressive,8,Multi-Cap & Growth Equity Funds
+180,97874.09,57950.26,39923.83,40.8,59.2,21,40,Conservative,19,Conservative Hybrid / Debt Funds
+181,48093.73,34183.06,13910.67,28.9,71.1,28,40,Aggressive,11,Multi-Cap & Growth Equity Funds
+182,29627.19,19575.37,10051.82,33.9,66.1,22,40,Conservative,19,Conservative Hybrid / Debt Funds
+183,113792.07,81641.09,32150.98,28.3,71.7,29,40,Aggressive,16,Multi-Cap & Growth Equity Funds
+184,45083.33,34611.5,10471.83,23.2,76.8,26,40,Aggressive,4,Large-Cap Equity Funds
+185,43028.34,20698.55,22329.79,51.9,48.1,25,40,Moderate,2,Balanced Hybrid Funds
+186,28748.62,24143.02,4605.6,16.0,84.0,20,40,Conservative,2,Liquid Funds & Fixed Deposits
+187,70366.96,59416.26,10950.7,15.6,84.4,26,40,Aggressive,10,Multi-Cap & Growth Equity Funds
+188,69465.26,57754.76,11710.5,16.9,83.1,21,40,Conservative,8,Conservative Hybrid / Debt Funds
+189,78069.81,41709.42,36360.39,46.6,53.4,22,40,Conservative,11,Conservative Hybrid / Debt Funds
+190,65373.9,31408.63,33965.27,52.0,48.0,19,40,Conservative,1,Liquid Funds & Fixed Deposits
+191,90929.39,73650.38,17279.01,19.0,81.0,27,40,Aggressive,6,Multi-Cap & Growth Equity Funds
+192,52711.28,43334.7,9376.58,17.8,82.2,31,40,Aggressive,9,Multi-Cap & Growth Equity Funds
+193,159582.47,66631.09,92951.38,58.2,41.8,21,40,Conservative,18,Conservative Hybrid / Debt Funds
+194,144182.06,68826.83,75355.23,52.3,47.7,23,40,Conservative,4,Liquid Funds & Fixed Deposits
+195,66170.91,52887.56,13283.35,20.1,79.9,22,40,Conservative,12,Conservative Hybrid / Debt Funds
+196,125450.17,92154.03,33296.14,26.5,73.5,18,40,Conservative,13,Conservative Hybrid / Debt Funds
+197,26399.77,11592.33,14807.44,56.1,43.9,27,40,Aggressive,10,Multi-Cap & Growth Equity Funds
+198,134661.46,65996.24,68665.22,51.0,49.0,19,40,Conservative,19,Conservative Hybrid / Debt Funds
+199,25940.93,13624.26,12316.67,47.5,52.5,27,40,Aggressive,12,Multi-Cap & Growth Equity Funds
+200,90809.14,48779.47,42029.67,46.3,53.7,25,40,Moderate,15,Balanced Advantage / Index Funds
+201,47924.92,21088.54,26836.38,56.0,44.0,18,40,Conservative,8,Conservative Hybrid / Debt Funds
+202,41950.47,30515.93,11434.54,27.3,72.7,22,40,Conservative,16,Conservative Hybrid / Debt Funds
+203,114008.6,55000.49,59008.11,51.8,48.2,23,40,Conservative,4,Liquid Funds & Fixed Deposits
+204,77676.93,36006.21,41670.72,53.6,46.4,20,40,Conservative,9,Conservative Hybrid / Debt Funds
+205,111069.71,56559.82,54509.89,49.1,50.9,25,40,Moderate,2,Balanced Hybrid Funds
+206,98134.94,76656.33,21478.61,21.9,78.1,18,40,Conservative,12,Conservative Hybrid / Debt Funds
+207,154332.58,79168.52,75164.06,48.7,51.3,24,40,Moderate,17,Balanced Advantage / Index Funds
+208,78964.12,51573.35,27390.77,34.7,65.3,19,40,Conservative,9,Conservative Hybrid / Debt Funds
+209,99924.82,43628.71,56296.11,56.3,43.7,18,40,Conservative,19,Conservative Hybrid / Debt Funds
+210,96704.22,45455.96,51248.26,53.0,47.0,20,40,Conservative,2,Liquid Funds & Fixed Deposits
+211,21407.67,18748.93,2658.74,12.4,87.6,27,40,Aggressive,6,Multi-Cap & Growth Equity Funds
+212,106835.46,67758.15,39077.31,36.6,63.4,27,40,Aggressive,18,Multi-Cap & Growth Equity Funds
+213,111380.07,97351.26,14028.81,12.6,87.4,20,40,Conservative,5,Conservative Hybrid / Debt Funds
+214,108780.36,94502.7,14277.66,13.1,86.9,20,40,Conservative,8,Conservative Hybrid / Debt Funds
+215,157947.78,77302.69,80645.09,51.1,48.9,28,40,Aggressive,17,Multi-Cap & Growth Equity Funds
+216,165480.5,109510.7,55969.8,33.8,66.2,28,40,Aggressive,3,Large-Cap Equity Funds
+217,107087.96,94492.1,12595.86,11.8,88.2,21,40,Conservative,16,Conservative Hybrid / Debt Funds
+218,22427.38,15180.4,7246.98,32.3,67.7,23,40,Conservative,10,Conservative Hybrid / Debt Funds
+219,78717.18,63982.17,14735.01,18.7,81.3,24,40,Moderate,1,Balanced Hybrid Funds
+220,35943.25,23429.9,12513.35,34.8,65.2,24,40,Moderate,4,Balanced Hybrid Funds
+221,146588.45,90654.15,55934.3,38.2,61.8,29,40,Aggressive,9,Multi-Cap & Growth Equity Funds
+222,171802.64,61434.97,110367.67,64.2,35.8,24,40,Moderate,5,Balanced Advantage / Index Funds
+223,154873.4,136620.2,18253.2,11.8,88.2,26,40,Aggressive,15,Multi-Cap & Growth Equity Funds
+224,163037.52,109899.16,53138.36,32.6,67.4,27,40,Aggressive,6,Multi-Cap & Growth Equity Funds
+225,112665.86,60116.1,52549.76,46.6,53.4,23,40,Conservative,15,Conservative Hybrid / Debt Funds
+226,111033.73,71115.07,39918.66,36.0,64.0,22,40,Conservative,2,Liquid Funds & Fixed Deposits
+227,68639.34,52840.81,15798.53,23.0,77.0,26,40,Aggressive,17,Multi-Cap & Growth Equity Funds
+228,78765.67,38113.3,40652.37,51.6,48.4,26,40,Aggressive,12,Multi-Cap & Growth Equity Funds
+229,168716.78,113501.87,55214.91,32.7,67.3,27,40,Aggressive,10,Multi-Cap & Growth Equity Funds
+230,68677.96,37389.61,31288.35,45.6,54.4,23,40,Conservative,14,Conservative Hybrid / Debt Funds
+231,57904.24,20905.52,36998.72,63.9,36.1,21,40,Conservative,15,Conservative Hybrid / Debt Funds
+232,32689.34,25994.85,6694.49,20.5,79.5,18,40,Conservative,11,Conservative Hybrid / Debt Funds
+233,72280.02,55086.66,17193.36,23.8,76.2,21,40,Conservative,13,Conservative Hybrid / Debt Funds
+234,61122.78,36970.6,24152.18,39.5,60.5,19,40,Conservative,11,Conservative Hybrid / Debt Funds
+235,42825.29,33059.13,9766.16,22.8,77.2,33,40,Aggressive,12,Multi-Cap & Growth Equity Funds
+236,138573.29,68151.31,70421.98,50.8,49.2,33,40,Aggressive,2,Large-Cap Equity Funds
+237,60466.47,39724.82,20741.65,34.3,65.7,17,40,Conservative,12,Conservative Hybrid / Debt Funds
+238,100296.15,65732.72,34563.43,34.5,65.5,21,40,Conservative,20,Conservative Hybrid / Debt Funds
+239,54101.65,46083.48,8018.17,14.8,85.2,16,40,Conservative,13,Conservative Hybrid / Debt Funds
+240,56498.68,31458.21,25040.47,44.3,55.7,19,40,Conservative,13,Conservative Hybrid / Debt Funds
