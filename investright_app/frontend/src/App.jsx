@@ -13,7 +13,11 @@ export default function App() {
   const [isAuthenticated, setIsAuthenticated] = useState(!!localStorage.getItem("token"));
   const [currentUser, setCurrentUser] = useState(null);
   const [screen, setScreen] = useState("dashboard");
-  const [mood, setMood] = useState("straight");
+  const [mood, setMoodState] = useState(() => localStorage.getItem("fin_advisor_tone") || "straight");
+  const setMood = (newMood) => {
+    localStorage.setItem("fin_advisor_tone", newMood);
+    setMoodState(newMood);
+  };
   const [dashboardData, setDashboardData] = useState(null);
 
   async function loadUser() {

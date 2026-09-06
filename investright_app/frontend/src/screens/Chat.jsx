@@ -622,7 +622,10 @@ export default function Chat({ mood, onProfileComplete, onViewDashboard, onAuthE
     setFreeText("");
     setAsking(true);
     try {
-      const res = await api.askAgent(message);
+      const toneDirective = mood === "encourage"
+        ? `${message} (Note: Please provide an encouraging, friendly, and motivational financial coaching response with positive milestone reinforcement.)`
+        : message;
+      const res = await api.askAgent(toneDirective);
       appendBot(indianizeCurrency(res.answer));
       setLastSources(res.retrieval_sources || []);
     } catch (e) {
@@ -644,6 +647,13 @@ export default function Chat({ mood, onProfileComplete, onViewDashboard, onAuthE
     window.speechSynthesis.cancel();
     const utterance = new SpeechSynthesisUtterance(text);
     utterance.lang = language;
+    if (mood === "encourage") {
+      utterance.pitch = 1.08;
+      utterance.rate = 0.98;
+    } else {
+      utterance.pitch = 1.0;
+      utterance.rate = 1.05;
+    }
     window.speechSynthesis.speak(utterance);
   };
 
