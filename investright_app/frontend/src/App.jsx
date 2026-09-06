@@ -148,7 +148,7 @@ export default function App() {
               onRestart={() => setScreen("chat")}
             />
           )}
-          {screen === "feedback" && <Feedback onDone={() => setScreen("dashboard")} />}
+          {screen === "feedback" && <Feedback isAdmin={isAdmin} currentUser={currentUser} onDone={() => setScreen("dashboard")} />}
           {screen === "evaluation" && (isAdmin ? <Evaluation /> : <Dashboard data={dashboardData} onRefresh={refreshDashboard} />)}
           </div>
 

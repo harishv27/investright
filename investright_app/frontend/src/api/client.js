@@ -69,7 +69,18 @@ export const api = {
 
   submitFeedback: (payload) => request("/api/feedback", { method: "POST", body: payload }),
   getFeedbackSummary: () => request("/api/feedback/summary"),
+  getAllFeedbacks: () => request("/api/feedback"),
   getUserBenchmark: () => request("/api/evaluation/benchmark-5-users"),
+  reEvaluateBenchmark: () => request("/api/evaluation/re-evaluate", { method: "POST" }),
+  getPaperLatex: () => request("/api/evaluation/paper-latex"),
+  downloadEvaluationZip: async () => {
+    const token = getToken();
+    const headers = {};
+    if (token) headers["Authorization"] = `Bearer ${token}`;
+    const res = await fetch(`${BASE_URL}/api/evaluation/export-zip`, { headers });
+    if (!res.ok) throw new Error("Failed to download research zip");
+    return res.blob();
+  },
 
   setToken: (token) => localStorage.setItem("token", token),
   clearToken: () => localStorage.removeItem("token"),
