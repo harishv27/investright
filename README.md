@@ -87,7 +87,7 @@ investright/
 │   └── RESULTS.md               Retrieval and risk-calibration results
 ├── results_package/             Paper-ready figures, tables, raw data, scripts
 │   ├── RESEARCH_RESULTS.md      Start here for the research write-up
-│   ├── figures/  tables/  raw_data/  scripts/
+│   └── figures/  tables/  raw_data/
 └── README.md
 ```
 
@@ -192,7 +192,7 @@ Tests cover risk calibration, retrieval ranking, capacity scoring and guardrails
 
 - [`results_package/RESEARCH_RESULTS.md`](results_package/RESEARCH_RESULTS.md) is the main report: Table IV/V reproduction, risk-distribution figures, retrieval experiment, calibration parameters and suggested next steps.
 - [`investright_app/RESULTS.md`](investright_app/RESULTS.md) holds the retrieval comparison (`no_memory`, `full_history`, `lexical_rag`).
-- Everything is reproducible: scripts in `results_package/scripts/` run against the real backend code and need no API key or network.
+- Everything is reproducible: scripts in `investright_app/backend/scripts/` run against the real backend code and need no API key or network.
 
 ```bash
 cd investright_app/backend
